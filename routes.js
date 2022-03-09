@@ -55,19 +55,31 @@ router.post('/login', async context => {
 	try {
 		const username = await login(obj)
 		context.cookies.set('authorised', username)
-		context.response.redirect('/foo')
+		context.response.redirect('/')
 	} catch(err) {
 		console.log(err)
 		context.response.redirect('/login')
 	}
 })
 
-router.get('/foo', async context => {
+router.get('/newForum', async context => {
+	console.log("newForum")
 	const authorised = context.cookies.get('authorised')
-	if(authorised === undefined) context.response.redirect('/')
+    //const role = await roles(authorised)
 	const data = { authorised }
-	const body = await handle.renderView('foo', data)
+	if (authorised === undefined) context.response.redirect('/login')
+	const body = await handle.renderView('/newForum', data)
 	context.response.body = body
+
 })
+router.post('/newForum', async context => {
+    console.log('POST /newForum')
+    const body = await context.request.body({ type: 'form-data' })
+    const data = await body.value.read()
+    data.username = context.cookies.get('authorised')
+    //await add_item(data)
+    context.response.redirect('/home')
+})
+
 
 export default router

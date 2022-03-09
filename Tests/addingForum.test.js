@@ -1,17 +1,17 @@
 /* addingForum.test.js */
 
-import { assertEquals } from 'https://deno.land/std@0.79.0/testing/asserts.ts'
+import { assertEquals, assertNotEquals } from 'https://deno.land/std@0.79.0/testing/asserts.ts'
 
 import { addingForum } from '../modules/forum.js'
 
 Deno.test('checking if in the function variable name exists', () =>{
     //arrange
-    const name = "rene"
+    const name = ""
     //act
     try{
     const nameOfForum = addingForum(name)
     //assert
-    assertEquals(Boolean(nameOfForum), true, "name is not there")
+    assertNotEquals(Boolean(nameOfForum), false, "name is not there")
     }catch(err){
         assertEquals(err.message, 'function does not exist')
     }

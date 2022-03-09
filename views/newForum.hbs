@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Home Page</title>
+		<meta name="description" content="form to add new books">
+		<meta name="author" content="Mark Tyers">
+		<meta name="viewport" content= "width=device-width, initial-scale=1.0">
+		<link href="/style.css" type="text/css" rel="stylesheet" />
+		<script type="module" src="/main.js"></script>
+	</head>
+    <body>
+		<header>
+			<h1>Book Forum</h1>
+		<nav>
+			<ul>
+				<li><a href="/">Home</a></li>
+				{{#if authorised}}
+					<li><a href="/logout">Log out</a></li>
+				{{else}}
+					<li><a href="/login">Log in</a></li>
+				{{/if}}
+				{{#if authorised}}
+            	<li><a href="/newForum">New Forum</a></li>
+            	{{/if}}
+			</ul>
+		</nav>
+		</header>
+        <main>
+			<fieldset>
+            	<legend>Inserting new forums: </legend>
+           		<form action="/newForum" method="post" enctype = "multipart/form-data">
+                	<label>Name of the new forum: <input type="text" name="topic" required/></label><br>
+					<label>Avatar for book topic: <input type="file" id = "avatar" name = "avatar" accept = "image/*"/></label><br>
+                	<label>Short summary: </label>
+                        <textarea name= "summary" id = "description" required/></textarea><br>
+					<label>Description: </label>
+                        <textarea name= "description" id = "description" required/></textarea><br>
+            		<label><input type = "submit" name="submit" /></a></label>
+            	</form>
+        	</fieldset>
+		</main>
+	</body>
+</html>

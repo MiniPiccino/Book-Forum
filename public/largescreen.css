@@ -63,8 +63,9 @@ main {
 
 form {
     margin: 2em;
-    text-align: justify;
+    /*text-align: justify;*/
 }
+
 
 fieldset{
     margin-top: 70px;

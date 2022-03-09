@@ -10,8 +10,8 @@ const salt = await genSalt(saltRounds)
 
 /**
  * Checks user credentials.
- * @param {string} username
- * @param {string} password
+ * @param {string} username username of the user
+ * @param {string} password password of the user
  * @returns {string} the username for the valid account
  */
 export async function login(data) {
@@ -27,14 +27,16 @@ export async function login(data) {
 }
 
 /**
- * Adds x and y.
- * @param {number} x
- * @param {number} y
- * @returns {number} Sum of x and y
+ * Inserting new user in database
+ * Adds username and password.
+ * @param {string} username
+ * @param {string} password
+ * @returns {boolean} true
  */
 export async function register(data) {
+	console.log(data)
 	const password = await hash(data.password, salt)
-	const sql = `INSERT INTO accounts(user, pass) VALUES("${data.username}", "${password}")`
+	const sql = `INSERT INTO users(username, password) VALUES("${data.username}", "${password}")`
 	console.log(sql)
 	await db.query(sql)
 	return true

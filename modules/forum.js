@@ -1,6 +1,6 @@
 /* forum.js */
 
-export async function addingForum(name, summary, description, avatar){
+export function addingForum(name, summary, description, avatar){
     const all = {
         name: name,
         summary: summary,
