@@ -1,0 +1,33 @@
+{
+  "scriptId": "82",
+  "url": "file:///home/codio/workspace/Tests/register.test.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 554,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 223,
+          "endOffset": 553,
+          "count": 1
+        },
+        {
+          "startOffset": 450,
+          "endOffset": 476,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

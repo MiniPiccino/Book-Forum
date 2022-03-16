@@ -3,13 +3,12 @@ I have to check if the Home page, Login page and Selling page exist. Moreover, h
 
 
 Scenario: Checking if I can log in
-
-Given I launch the website with URL of the website
-When I get to the page
-And Click on the Log in button
-And Get to the Log in page
-And Insert the username and password
-Then I am getting to the Home page again
+    Given I launch the website with URL of the website
+    When I get to the page
+        And Click on the Log in button
+        And Get to the Log in page
+        And Insert the username and password
+    Then I am getting to the Home page again
 
 Scenario: Inserting new topics
 

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+deno lint --unstable
+
+git add --all
+
+git commit -m 

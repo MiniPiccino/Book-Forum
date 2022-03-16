@@ -51,3 +51,5 @@ Deno.test('checking if in the function variable avatar exists', () =>{
     }
 })
 
+Deno.test()
+
