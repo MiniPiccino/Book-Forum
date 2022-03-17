@@ -23,7 +23,7 @@ export async function login(data) {
 	records = await db.query(sql)
 	const valid = await compare(data.password, records[0].password)
 	if(valid === false) throw new Error(`invalid password for account "${data.username}"`)
-	return data
+	return data.username
 }
 
 /**
@@ -39,5 +39,5 @@ export async function register(data) {
 	const sql = `INSERT INTO users(username, password) VALUES("${data.username}", "${password}")`
 	console.log(sql)
 	await db.query(sql)
-	return data
+	return true
 }

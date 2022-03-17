@@ -2,16 +2,6 @@
 
 import { db } from './db.js'
 
-export function addingForum(name, summary, description, avatar){
-    const all = {
-        name: name,
-        summary: summary,
-        description: description,
-        avatar: avatar
-    }
-    return all
-}
-
 export async function add_forum(data){
     console.log('add_forum()')
     console.log(data)
