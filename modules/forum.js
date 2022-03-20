@@ -6,6 +6,7 @@ export async function add_forum(data){
     console.log('add_forum()')
     console.log(data)
     data.fields.username = data.username
+    if(data.username == false) throw new Error('username not found')
     data.files[0].username = data.username
     data.fields.avatar = await saveAvatar(data.files[0])
     const id = await addAvatar(data.fields)
