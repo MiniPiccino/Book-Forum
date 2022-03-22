@@ -2,30 +2,19 @@
 
 import { db } from './db.js'
 
-export async function add_forum(data){
-    console.log('add_forum()')
-    console.log(data)
-    data.fields.username = data.username
-    if(data.username == false) throw new Error('username not found')
-    data.files[0].username = data.username
-    data.fields.avatar = await saveAvatar(data.files[0])
-    const id = await addAvatar(data.fields)
-}
-
-async function saveAvatar(file){
+export async function saveAvatar(username, filepath){
     let filename = ''
-    if(file.contentType !== 'application/octet-stream'){
-        const ext = file.filename.split('.').pop()
-        filename = `${file.username}-${Date.now()}.${ext}`
-        await Deno.rename(file.filename, `${Deno.cwd()}/public/uploads/${filename}`)
+    if(filepath.contentType !== 'application/octet-stream'){
+        const ext = filepath.split('.').pop()
+        filename = `${username}-${Date.now()}.${ext}`
+        await Deno.rename(filepath, `${Deno.cwd()}/public/uploads/${filename}`)
     }
     return filename
-    
 }
 
-async function addAvatar(data){
-    console.log(data)
-    let sql = `SELECT username FROM users WHERE username = "${data.username}"`
+export async function addAvatar(username, nameOfForum, summary, description, image ){
+    console.log(username)
+    let sql = `SELECT username FROM users WHERE username = "${username}"`
     let result = await db.query(sql)
     console.log(result)
     console.log(typeof result)
@@ -39,6 +28,6 @@ async function addAvatar(data){
     //console.log(descValue)
     //console.log(desc)
     sql = `INSERT INTO newForum(username, nameOfForum, summary, description, added, avatar)
-    VALUES ("${data.username}", "${data.nameOfForum}", "${data.summary}", "${data.description}", "${date}", "${data.avatar}")`
+    VALUES ("${username}", "${nameOfForum}", "${summary}", "${description}", "${date}", "${image}")`
     await db.query(sql)
 }

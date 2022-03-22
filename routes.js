@@ -7,7 +7,7 @@ import { Handlebars } from 'https://deno.land/x/handlebars/mod.ts'
 // import { parse } from 'https://deno.land/std/flags/mod.ts'
 
 import { login, register } from './modules/accounts.js'
-import { add_forum } from './modules/forum.js'
+import { saveAvatar, addAvatar } from './modules/forum.js'
 
 const handle = new Handlebars({ defaultLayout: '' })
 
@@ -77,8 +77,15 @@ router.post('/newForum', async context => {
     console.log('POST /newForum')
     const body = await context.request.body({ type: 'form-data' })
     const data = await body.value.read()
+	console.log(data)
     data.username = context.cookies.get('authorised')
-    await add_forum(data)
+	const filepath = data.files[0].filename
+	const nameOfForum = data.fields.nameOfForum
+	const summary = data.fields.summary
+	const description = data.fields.description
+	console.log(filepath)
+    const image = await saveAvatar(data.username, filepath)
+	await addAvatar(data.username, nameOfForum, summary, description, image)
     context.response.redirect('/')
 })
 

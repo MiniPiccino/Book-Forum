@@ -15,6 +15,7 @@ const salt = await genSalt(saltRounds)
  * @returns {string} the username for the valid account
  */
 export async function login(data) {
+	console.time('login')
 	console.log(data)
 	let sql = `SELECT count(username) AS count FROM users WHERE username="${data.username}";`
 	let records = await db.query(sql)
@@ -23,6 +24,7 @@ export async function login(data) {
 	records = await db.query(sql)
 	const valid = await compare(data.password, records[0].password)
 	if(valid === false) throw new Error(`invalid password for account "${data.username}"`)
+	console.timeEnd('login')
 	return data.username
 }
 
@@ -36,7 +38,7 @@ export async function login(data) {
 export async function register(data) {
 	console.log(data)
 	const password = await hash(data.password, salt)
-	const sql = `INSERT INTO users(username, password) VALUES("${data.username}", "${password}")`
+	sql = `INSERT INTO users(username, password) VALUES("${data.username}", "${password}")`
 	console.log(sql)
 	await db.query(sql)
 	return true
