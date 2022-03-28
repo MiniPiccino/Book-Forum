@@ -3,8 +3,8 @@
 
 import { Client } from 'https://deno.land/x/mysql/mod.ts'
 
-const home = Deno.env.get('HOME')
-console.log(`HOME: ${home}`)
+const home = Deno.env.get('HOME');
+console.log(`HOME: ${home}`);
 
 const connectionData = {
   '/home/codio':  {
@@ -19,11 +19,8 @@ const connectionData = {
     password: 'PASSWORD',
     db: 'DATABASE'
   }
-}
-
-const conn = connectionData[home]
-console.log(conn)
-
-const db = await new Client().connect(conn)
-
-export { db }
+};
+const conn = connectionData[home];
+console.log(conn);
+const db = await new Client().connect(conn);
+export { db };
