@@ -4,7 +4,7 @@
     "name": "login",
     "location": {
       "filename": "file:///home/codio/workspace/modules/accounts.js",
-      "line": 17,
+      "line": 16,
       "col": 0
     },
     "jsDoc": {
@@ -13,12 +13,14 @@
         {
           "kind": "param",
           "name": "username",
-          "type": "string"
+          "type": "string",
+          "doc": "username of the user"
         },
         {
           "kind": "param",
           "name": "password",
-          "type": "string"
+          "type": "string",
+          "doc": "password of the user"
         },
         {
           "kind": "return",
@@ -47,8 +49,28 @@
     "name": "register",
     "location": {
       "filename": "file:///home/codio/workspace/modules/accounts.js",
-      "line": 29,
+      "line": 37,
       "col": 0
+    },
+    "jsDoc": {
+      "doc": "Inserting new user in database\nAdds username and password.",
+      "tags": [
+        {
+          "kind": "param",
+          "name": "username",
+          "type": "string"
+        },
+        {
+          "kind": "param",
+          "name": "password",
+          "type": "string"
+        },
+        {
+          "kind": "return",
+          "type": "boolean",
+          "doc": "true"
+        }
+      ]
     },
     "functionDef": {
       "params": [
@@ -70,7 +92,7 @@
     "name": "compare",
     "location": {
       "filename": "file:///home/codio/workspace/modules/accounts.js",
-      "line": 4,
+      "line": 3,
       "col": 0
     },
     "importDef": {
@@ -83,7 +105,7 @@
     "name": "genSalt",
     "location": {
       "filename": "file:///home/codio/workspace/modules/accounts.js",
-      "line": 4,
+      "line": 3,
       "col": 0
     },
     "importDef": {
@@ -96,7 +118,7 @@
     "name": "hash",
     "location": {
       "filename": "file:///home/codio/workspace/modules/accounts.js",
-      "line": 4,
+      "line": 3,
       "col": 0
     },
     "importDef": {
@@ -109,7 +131,7 @@
     "name": "db",
     "location": {
       "filename": "file:///home/codio/workspace/modules/accounts.js",
-      "line": 6,
+      "line": 5,
       "col": 0
     },
     "importDef": {

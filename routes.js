@@ -77,14 +77,19 @@ router.post('/newForum', async context => {
     console.log('POST /newForum')
     const body = await context.request.body({ type: 'form-data' })
     const data = await body.value.read()
-	console.log(data)
+	//console.log(data)
     data.username = context.cookies.get('authorised')
+	if(Boolean(data.username) == false) throw new Error('username is not found')
 	const filepath = data.files[0].filename
+	if(Boolean(filepath == false)) throw new Error('filepath is not found')
 	const nameOfForum = data.fields.nameOfForum
+	if(Boolean(nameOfForum == false)) throw new Error('nameOfForum is not found')
 	const summary = data.fields.summary
+	if(Boolean(summary == false)) throw new Error('summary is not found')
 	const description = data.fields.description
-	console.log(filepath)
+	if(Boolean(description == false)) throw new Error('description is not found')
     const image = await saveAvatar(data.username, filepath)
+	if(Boolean(image == false)) throw new Error('image is not found')
 	await addAvatar(data.username, nameOfForum, summary, description, image)
     context.response.redirect('/')
 })

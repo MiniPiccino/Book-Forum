@@ -1,4 +1,3 @@
-
 /* accounts.js */
 
 import { compare, genSalt, hash } from 'https://deno.land/x/bcrypt@v0.2.4/mod.ts'
@@ -10,8 +9,9 @@ const salt = await genSalt(saltRounds)
 
 /**
  * Checks user credentials.
- * @param {string} username username of the user
- * @param {string} password password of the user
+ * @param {object} data The information about user
+ * @param {string} data.username Username of the user
+ * @param {string} data.password Password of the user
  * @returns {string} the username for the valid account
  */
 export async function login(data) {
@@ -30,15 +30,17 @@ export async function login(data) {
 
 /**
  * Inserting new user in database
- * Adds username and password.
- * @param {string} username
- * @param {string} password
+ * @param {object} data The information about the user for registering
+ * @param {string} data.username Username for new user
+ * @param {string} data.password The users new password
  * @returns {boolean} true
  */
 export async function register(data) {
 	console.log(data)
+	if(Boolean(data.username) == false) throw new Error("username not found")
+	if(Boolean(data.password) == false) throw new Error("password not found")
 	const password = await hash(data.password, salt)
-	sql = `INSERT INTO users(username, password) VALUES("${data.username}", "${password}")`
+	let sql = `INSERT INTO users(username, password) VALUES("${data.username}", "${password}")`
 	console.log(sql)
 	await db.query(sql)
 	return true

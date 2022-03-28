@@ -8,36 +8,51 @@ import { register } from '../modules/accounts.js'
 Deno.test({name: 'checking if the username and password are there', async fn() {
     //arrange
     const cred = {
-      username: "user6",
+      username: "user100",
       password: "p455w0rd"
     }
     //act
-    try {
-       const usrr = await register(cred)
-        //assert
-        assertEquals(usrr, true, "username not found")
-    } catch (err) {
-        assertEquals(err.message, "function not there")
-        }
+    const usrr = await register(cred)
+    //assert
+    assertEquals(usrr, true, "function not found")
     },
     sanitizeResources: false,
     sanitizeOps: false   
 
 })
 
-Deno.test({name: 'checking if the username and password are there', async fn() {
+Deno.test({name: 'checking if the username works', async fn() {
     //arrange
     const cred = {
-      username: "user6",
+      username: "",
       password: "p455w0rd"
     }
     //act
     try {
        const usrr = await register(cred)
         //assert
-        assertEquals(cred.password, 'p455w0rd')
+        assertEquals(usrr, true, 'username not found')
     } catch (err) {
-        assertEquals(err.message, "password is not there")
+        assertEquals(err.message, "username not found")
+        }
+    },
+    sanitizeResources: false,
+    sanitizeOps: false   
+
+})
+Deno.test({name: 'checking if the password works', async fn() {
+    //arrange
+    const cred = {
+      username: "user9",
+      password: ""
+    }
+    //act
+    try {
+       const usrr = await register(cred)
+        //assert
+        assertEquals(usrr, true, 'password not found')
+    } catch (err) {
+        assertEquals(err.message, "password not found")
         }
     },
     sanitizeResources: false,
