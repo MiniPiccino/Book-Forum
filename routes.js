@@ -8,6 +8,7 @@ import { Handlebars } from 'https://deno.land/x/handlebars/mod.ts'
 
 import { login, register } from './modules/accounts.js'
 import { saveAvatar, addAvatar } from './modules/forum.js'
+import { showForums } from './modules/output.js'
 
 const handle = new Handlebars({ defaultLayout: '' })
 
@@ -16,7 +17,9 @@ const router = new Router()
 // the routes defined here
 router.get('/', async context => {
 	const authorised = context.cookies.get('authorised')
-	const data = { authorised }
+	const forums = await showForums()
+	const data = { authorised, forums }
+	console.log(forums)
 	const body = await handle.renderView('home', data)
 	context.response.body = body
 })

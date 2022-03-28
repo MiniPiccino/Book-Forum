@@ -29,5 +29,15 @@
 			</ul>
 		</nav>
 		</header>
+		<main>
+			{{#each forums}}
+			<figure>
+				<p> Name of the Forum: {{this.nameOfForum}}</p><br>
+                <img src="./uploads/{{this.avatar}}"><br>
+				<p> Summary: {{this.summary}}</p><br>
+				<p> Added: {{this.added}}</p><br>
+			</figure>
+			{{/each}}
+		</main>
 	</body>
 </html>

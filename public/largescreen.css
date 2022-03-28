@@ -55,11 +55,11 @@ main {
     box-sizing: border-box;
     border-radius: 0.5em;
     /*background-color: var(--main-color);*/
-
     grid-template-rows: 1fr;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
 
 form {
     margin: 2em;
