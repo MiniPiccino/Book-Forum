@@ -30,14 +30,16 @@
 		</nav>
 		</header>
 		<main>
+			<article>
 			{{#each forums}}
 			<figure>
-				<p> Name of the Forum: {{this.nameOfForum}}</p><br>
-                <img src="./uploads/{{this.avatar}}"><br>
+				<p> Name of the Forum: {{this.nameOfForum}}</p>
+                <img src="./uploads/{{this.avatar}}">
 				<p> Summary: {{this.summary}}</p><br>
 				<p> Added: {{this.added}}</p><br>
 			</figure>
 			{{/each}}
+			</article>
 		</main>
 	</body>
 </html>

@@ -16,22 +16,53 @@ const router = new Router()
 
 // the routes defined here
 router.get('/', async context => {
+	if (context.cookies.get("cookieOpt") === undefined) {
+		context.response.redirect("/cookiePolicy")
+	}
+	else if (context.cookies.get("cookieOpt") === ":accept"){
 	const authorised = context.cookies.get('authorised')
 	const forums = await showForums()
 	const data = { authorised, forums }
-	console.log(forums)
+	//console.log(forums)
 	const body = await handle.renderView('home', data)
 	context.response.body = body
+	}
+})
+router.get('/cookiePolicy', async context => {
+	const body = await handle.renderView('/cookiePolicy')
+	context.response.body = body
+})
+router.get('/furtherCookiePolicy', async context => {
+	const body = await handle.renderView('/furtherCookiePolicy')
+	context.response.body = body
+})
+router.get('/cookies:option', async context => {
+	const option = context.params.option
+	console.log(option)
+	context.cookies.set('cookieOpt', option)
+	context.response.redirect("/")
 })
 
+
 router.get('/login', async context => {
+    if (context.cookies.get("cookieOpt") === undefined) {
+		context.response.redirect("/cookiePolicy")
+	}
+	else if (context.cookies.get("cookieOpt") === ":accept"){
 	const body = await handle.renderView('login')
 	context.response.body = body
+	}
+	
 })
 
 router.get('/register', async context => {
+    if (context.cookies.get("cookieOpt") === undefined) {
+		context.response.redirect("/cookiePolicy")
+	}
+	else if (context.cookies.get("cookieOpt") === ":accept"){
 	const body = await handle.renderView('register')
 	context.response.body = body
+	}
 })
 
 router.post('/register', async context => {
@@ -67,13 +98,18 @@ router.post('/login', async context => {
 })
 
 router.get('/newForum', async context => {
-	console.log("newForum")
+	if (context.cookies.get("cookieOpt") === undefined) {
+		context.response.redirect("/cookiePolicy")
+	}
+	else if (context.cookies.get("cookieOpt") === ":accept"){
 	const authorised = context.cookies.get('authorised')
     //const role = await roles(authorised)
 	const data = { authorised }
 	if (authorised === undefined) context.response.redirect('/login')
 	const body = await handle.renderView('/newForum', data)
 	context.response.body = body
+	}
+	
 
 })
 router.post('/newForum', async context => {
