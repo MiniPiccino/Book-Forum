@@ -1,7 +1,7 @@
 /* forum.js */
 
 import { db } from './db.js'
-
+import { format } from "https://deno.land/std@0.91.0/datetime/mod.ts";
 
 /**
  * returns renamed filename
@@ -10,7 +10,6 @@ import { db } from './db.js'
  * @returns {string}
  */
 export async function saveAvatar(username, filepath){
-    //console.log(username, filepath)
     let filename = ''
     //if(filepath.contentType !== 'application/octet-stream'){
         const ext = filepath.split('.').pop()
@@ -34,17 +33,8 @@ export async function addAvatar(username, nameOfForum, summary, description, ima
     console.log(username)
     let sql = `SELECT username FROM users WHERE username = "${username}"`
     let result = await db.query(sql)
-    //console.log(result)
-    //console.log(typeof result)
     const now = new Date().toISOString()
-    //console.log(`ISO Date String: ${now}`)
-    const date = now.slice(0,19).replace('T', ' ')
-    //console.log(date)
-    //let stat = `SELECT status_id FROM status WHERE status_id = 0`
-    //let desc = await db.query(stat)
-    //let descValue = Object.values(desc[0])
-    //console.log(descValue)
-    //console.log(desc)
+    let date = now.slice(0,19).replace('T', ' ')
     sql = `INSERT INTO newForum(username, nameOfForum, summary, description, added, avatar)
     VALUES ("${username}", "${nameOfForum}", "${summary}", "${description}", "${date}", "${image}")`
     result = await db.query(sql)

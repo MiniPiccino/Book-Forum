@@ -5,7 +5,7 @@ body, header, main, li, ul, li a, form , input{
 
 body {
     background-color: var(--background-color);
-    display: grid;
+    /*display: grid;*/
     color: var(--text-color);
 }
 
@@ -51,14 +51,19 @@ li a:hover {
 main {
     margin-top: 15em;
     text-align: center;
-    max-width: 800px;
-    box-sizing: border-box;
+    /*max-width: 800px;
+    box-sizing: border-box;*/
     border-radius: 0.5em;
-    /*background-color: var(--main-color);*/
-
+    /*background-color: var(--main-color);
     grid-template-rows: 1fr;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;*/
+}
+article {
+    white-space: nowrap;
+    margin: 10%;
+    padding: 5%;
+    background-color: var(--article-color);
 }
 
 form {
@@ -69,7 +74,6 @@ form {
 
 fieldset{
     margin-top: 70px;
-    margin
 }
 
 input:first-child{
