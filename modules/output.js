@@ -2,6 +2,10 @@
 
 import { db } from './db.js'
 
+/**
+ * returns name of the forum, avatar, summary, and time added in the database
+ * @returns {object} name of the forum, avatar, summary and time added
+ */
 export async function showForums(){
     let sql = `SELECT nameOfForum, avatar, summary, added FROM newForum;`
     let result = await db.query(sql)
@@ -11,10 +15,5 @@ export async function showForums(){
         result[i].added = date
         i = i+1
     }
-    //for(let i in result){
-    //        console.log(i)
-    //        break
-    //    }
-    console.log(result[0])
     return result
 }

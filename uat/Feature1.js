@@ -3,10 +3,12 @@
 //(username and password) and being able to (when logged in) acces newForum
 // page to insert new book forum
 Deno.test('testing access to register page', async test => {
-    //GIVEN I am on home page 
+    //GIVEN I am on home page and I have accepted All Cookies
         const browser = await puppeteer.launch({ headless: false })
         const page = (await browser.pages())[0]
         await page.goto('https://winter-sabine-8080.codio-box.uk/', { waitUntil: 'networkidle0' })
+        await page.waitForTimeout(1000)
+        await page.click('a[href="/cookies:accept"]', { waitUntil: 'networkidle0' })
     //WHEN I click on register button
         await page.click('a[href="/register"]', { waitUntil: 'networkidle0' })
     //THEN I should see register page with two input fields
@@ -22,12 +24,14 @@ Deno.test('testing access to register page', async test => {
 })
 
 Deno.test('testing inserting credentials into register page', async test => {
-    //GIVEN I am on home page
+    //GIVEN I am on home page and I have accepted All Cookies
         const browser = await puppeteer.launch({ headless: false })
         const page = (await browser.pages())[0]
         const string = cryptoRandomString({length: 10})
         const pass = 'p455w0rd'
         await page.goto('https://winter-sabine-8080.codio-box.uk/', { waitUntil: 'networkidle0' })
+        await page.waitForTimeout(1000)
+        await page.click('a[href="/cookies:accept"]', { waitUntil: 'networkidle0' })
     //AND I click on register button
         await page.click('a[href="/register"]', { waitUntil: 'networkidle0' })
     //WHEN I insert random string in username field
@@ -45,10 +49,12 @@ Deno.test('testing inserting credentials into register page', async test => {
 
 
 Deno.test('testing access to login page', async test => {
-    //GIVEN I am on home page 
+    //GIVEN I am on home page and I have accepted All Cookies
         const browser = await puppeteer.launch({ headless: false })
         const page = (await browser.pages())[0]
         await page.goto('https://winter-sabine-8080.codio-box.uk/', { waitUntil: 'networkidle0' })
+        await page.waitForTimeout(1000)
+        await page.click('a[href="/cookies:accept"]', { waitUntil: 'networkidle0' })
     //WHEN I click on Log In button
         await page.click('a[href="/login"]', { waitUntil: 'networkidle0' })
     //THEN I should see login page with two input fields
@@ -64,10 +70,12 @@ Deno.test('testing access to login page', async test => {
 })
 
 Deno.test('login', async test =>{
-    //GIVEN I am on the home page 
+    //GIVEN I am on the home page and I have accepted All Cookies
         const browser = await puppeteer.launch({ headless: false })
         const page = (await browser.pages())[0]
         await page.goto('https://winter-sabine-8080.codio-box.uk/', { waitUntil: 'networkidle0' })
+        await page.waitForTimeout(1000)
+        await page.click('a[href="/cookies:accept"]', { waitUntil: 'networkidle0' })
     //AND I click on Log In button
         await page.click('a[href="/login"]', { waitUntil: 'networkidle0' })
     //WHEN I insert username 'doej' in username field
@@ -90,10 +98,12 @@ Deno.test('login', async test =>{
 })
 
 Deno.test('testing access to newForum page', async test => {
-    //GIVEN I am on home page 
+    //GIVEN I am on home page and I have accepted All Cookies
         const browser = await puppeteer.launch({ headless: false })
         const page = (await browser.pages())[0]
         await page.goto('https://winter-sabine-8080.codio-box.uk/', { waitUntil: 'networkidle0' })
+        await page.waitForTimeout(1000)
+        await page.click('a[href="/cookies:accept"]', { waitUntil: 'networkidle0' })
     //AND I am logged in
     await page.click('a[href="/login"]', { waitUntil: 'networkidle0' })
     //AND I insert username 'doej' in username field
@@ -112,10 +122,12 @@ Deno.test('testing access to newForum page', async test => {
 })
 
 Deno.test('testing inserting information for New Forum', async test => {
-    //GIVEN I am on home page 
+    //GIVEN I am on home page and I have accepted All Cookies
         const browser = await puppeteer.launch({ headless: false })
         const page = (await browser.pages())[0]
         await page.goto('https://winter-sabine-8080.codio-box.uk/', { waitUntil: 'networkidle0' })
+        await page.waitForTimeout(1000)
+        await page.click('a[href="/cookies:accept"]', { waitUntil: 'networkidle0' })
     //AND I am logged in
     await page.click('a[href="/login"]', { waitUntil: 'networkidle0' })
     //AND I insert username 'doej' in username field
