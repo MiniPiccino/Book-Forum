@@ -1,4 +1,3 @@
-
 <!doctype html>
 
 <html lang="en">
@@ -10,7 +9,7 @@
 		<meta name="viewport" content= "width=device-width, initial-scale=1.0">
 		<link href="/style.css" type="text/css" rel="stylesheet" />
 		<script type="module" src="/main.js"></script>
-		<script type = "module" src = "/markdown.js" defer></script>
+        <script type = "module" src = "/markdown.js" defer></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.4.0/showdown.min.js"></script>
 	</head>
 	<body>
@@ -31,15 +30,18 @@
 			</ul>
 		</nav>
 		</header>
-		<main>
+        <main>
 			<article>
-			{{#each forums}}
+			{{#each infoForum}}
 			<figure>
 				<p> Name of the Forum: {{this.nameOfForum}}</p>
-                <img src="./uploads/{{this.avatar}}">
+                <img src="/uploads/{{this.avatar}}"><br>
 				<p> Summary: {{this.summary}}</p><br>
-				<p> Added: {{this.added}}</p><br>
-				<button><a href = "/details/{{this.IDForum}}">Show Forum</a></button>
+                <p> Description:</p>
+				<input type = "textarea" id = "description" value = "{{this.description}}" hidden>
+				<article id = "descriptionOutput"><p><p></article>
+                <p> Added: {{this.added}}</p><br>
+                <p> Username of the person who added this forum topic: {{this.username}} </p><br>
 			</figure>
 			{{/each}}
 			</article>
