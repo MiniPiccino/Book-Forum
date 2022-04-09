@@ -1,4 +1,4 @@
 #!/bin/bash
 
 echo 'Commited Succesfully'
-echo 'Don't forget to push on correct branch'
+echo 'Do not forget to push on correct branch'
