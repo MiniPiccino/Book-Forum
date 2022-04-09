@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo 'Check if you are on correct branch'
+
+git branch --list

@@ -8,7 +8,7 @@ import { Handlebars } from 'https://deno.land/x/handlebars/mod.ts'
 
 import { login, register } from './modules/accounts.js'
 import { saveAvatar, addAvatar } from './modules/forum.js'
-import { showForums } from './modules/output.js'
+import { showForums, detailForum } from './modules/output.js'
 
 const handle = new Handlebars({ defaultLayout: '' })
 
@@ -132,6 +132,14 @@ router.post('/newForum', async context => {
 	await addAvatar(data.username, nameOfForum, summary, description, image)
     context.response.redirect('/')
 })
-
-
+router.get('/details/:id', async context => {
+    console.log('GET /details')
+    const authorised = context.cookies.get('authorised')
+    const id = context.params.id
+	const infoForum = await detailForum(id)
+	const data = { authorised, id, infoForum }
+	if (authorised === undefined) context.response.redirect('/login')
+    const body = await handle.renderView('/details', data)
+    context.response.body = body
+})
 export default router

@@ -4,4 +4,4 @@ deno lint --unstable
 
 git add --all
 
-git commit -m 
+deno test -A --unstable Tests/output.test.js
