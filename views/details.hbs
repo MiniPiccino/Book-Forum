@@ -35,13 +35,13 @@
 			{{#each infoForum}}
 			<figure>
 				<p> Name of the Forum: {{this.nameOfForum}}</p>
-                <img src="/uploads/{{this.avatar}}"><br>
-				<p> Summary: {{this.summary}}</p><br>
+                <img src="/uploads/{{this.avatar}}">
+				<p> Summary: {{this.summary}}</p>
                 <p> Description:</p>
 				<input type = "textarea" id = "description" value = "{{this.description}}" hidden>
 				<article id = "descriptionOutput"><p><p></article>
-                <p> Added: {{this.added}}</p><br>
-                <p> Username of the person who added this forum topic: {{this.username}} </p><br>
+                <p> Added: {{this.added}}</p>
+                <p> Username of the person who added this forum topic: {{this.username}} </p>
 			</figure>
 			{{/each}}
 			</article>

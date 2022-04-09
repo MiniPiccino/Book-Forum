@@ -8,6 +8,11 @@ body {
     /*display: grid;*/
     color: var(--text-color);
 }
+hr{
+    color: black;
+    width: 50%;
+    border-width: 2px;
+}
 
 header {
     display: inline;
