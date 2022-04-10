@@ -42,7 +42,7 @@ Deno.test({name: 'checking if the addAvatar works        ', async fn() {
     sanitizeOps: false   
 })
 
-Deno.test({name: 'checking if the filepath is there', async fn() {
+Deno.test({name: 'checking if the filename is there', async fn() {
     //arrange
       const username = "user1"
       //const filepath = "/home/codio/workspace/tmp/6b84a474/8bc98258f7934176a342cefc3b606ad8bbb2e1bb.jpeg"
@@ -64,7 +64,7 @@ Deno.test({name: 'checking if the filepath is there', async fn() {
     sanitizeOps: false   
 
 })
-Deno.test({name: 'checking if the filepath is there', async fn() {
+Deno.test({name: 'checking if the nameOfForum is there', async fn() {
     //arrange
       const username = "user1"
       //const filepath = "/home/codio/workspace/tmp/6b84a474/8bc98258f7934176a342cefc3b606ad8bbb2e1bb.jpeg"
@@ -86,7 +86,7 @@ Deno.test({name: 'checking if the filepath is there', async fn() {
     sanitizeOps: false   
 
 })
-Deno.test({name: 'checking if the filepath is there', async fn() {
+Deno.test({name: 'checking if the summary is there', async fn() {
     //arrange
       const username = "user1"
       //const filepath = "/home/codio/workspace/tmp/6b84a474/8bc98258f7934176a342cefc3b606ad8bbb2e1bb.jpeg"
@@ -108,7 +108,7 @@ Deno.test({name: 'checking if the filepath is there', async fn() {
     sanitizeOps: false   
 
 })
-Deno.test({name: 'checking if the filepath is there', async fn() {
+Deno.test({name: 'checking if the description is there', async fn() {
     //arrange
       const username = "user1"
       //const filepath = "/home/codio/workspace/tmp/6b84a474/8bc98258f7934176a342cefc3b606ad8bbb2e1bb.jpeg"
@@ -130,7 +130,7 @@ Deno.test({name: 'checking if the filepath is there', async fn() {
     sanitizeOps: false   
 
 })
-Deno.test({name: 'checking if the filepath is there', async fn() {
+Deno.test({name: 'checking if the image is there', async fn() {
     //arrange
       const username = "user1"
       //const filepath = "/home/codio/workspace/tmp/6b84a474/8bc98258f7934176a342cefc3b606ad8bbb2e1bb.jpeg"

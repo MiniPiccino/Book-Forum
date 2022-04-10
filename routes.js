@@ -136,7 +136,9 @@ router.post('/newForum', async context => {
 router.get('/details/:id', async context => {
     console.log('GET /details')
     const authorised = context.cookies.get('authorised')
+	if(Boolean(authorised == false)) throe new Error('authorised is not found')
     const id = context.params.id
+	if(Boolean(id == false)) throw new Error('id is not found')
 	const infoForum = await detailForum(id)
 	const comment = await showingComments(id)
 	const data = { authorised, id, infoForum, comment }
@@ -148,10 +150,13 @@ router.get('/details/:id', async context => {
 router.post('/details/:id', async context => {
     console.log('POST /details/')
 	const id = context.params.id
+	if(Boolean(id == false)) throw new Error('id is not found')
 	const authorised = context.cookies.get('authorised')
+	if(Boolean(authorised == false)) throw new Error('authorised is not found')
     const body = await context.request.body({ type: 'form-data' })
     const data = await body.value.read()
 	const comment = data.fields.comment 
+	if(Boolean(comment == false)) throw new Error('comment is not found')
 	const commentFunction = await insertNewComment(id,authorised, comment)
 	console.log(commentFunction)
 	context.response.redirect('/')
