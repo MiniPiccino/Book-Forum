@@ -23,3 +23,12 @@ CREATE TABLE IF NOT EXISTS newForum (
     avatar VARCHAR(100),
     FOREIGN KEY (username) REFERENCES users(username)
 );
+
+CREATE TABLE IF NOT EXISTS newComment (
+    IDComment INT(100) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    IDForum INT(100) UNSIGNED NOT NULL,
+    username VARCHAR(25) NOT NULL,
+    comment VARCHAR(255) NOT NULL,
+    added datetime,
+    FOREIGN KEY (IDForum) REFERENCES newForum(IDForum)
+);
