@@ -8,7 +8,8 @@ import { Handlebars } from 'https://deno.land/x/handlebars/mod.ts'
 
 import { login, register } from './modules/accounts.js'
 import { saveAvatar, addAvatar } from './modules/forum.js'
-import { showForums, detailForum } from './modules/output.js'
+import { showForums, detailForum, showingComments } from './modules/output.js'
+import { insertNewComment } from './modules/comments.js'
 
 const handle = new Handlebars({ defaultLayout: '' })
 
@@ -23,7 +24,7 @@ router.get('/', async context => {
 	const authorised = context.cookies.get('authorised')
 	const forums = await showForums()
 	const data = { authorised, forums }
-	//console.log(forums)
+	console.log(forums)
 	const body = await handle.renderView('home', data)
 	context.response.body = body
 	}
@@ -135,11 +136,29 @@ router.post('/newForum', async context => {
 router.get('/details/:id', async context => {
     console.log('GET /details')
     const authorised = context.cookies.get('authorised')
+	if(Boolean(authorised == false)) throw new Error('authorised is not found')
     const id = context.params.id
+	if(Boolean(id == false)) throw new Error('id is not found')
 	const infoForum = await detailForum(id)
-	const data = { authorised, id, infoForum }
+	const comment = await showingComments(id)
+	const data = { authorised, id, infoForum, comment }
+	console.log(data)
 	if (authorised === undefined) context.response.redirect('/login')
     const body = await handle.renderView('/details', data)
     context.response.body = body
+})
+router.post('/details/:id', async context => {
+    console.log('POST /details/')
+	const id = context.params.id
+	if(Boolean(id == false)) throw new Error('id is not found')
+	const authorised = context.cookies.get('authorised')
+	if(Boolean(authorised == false)) throw new Error('authorised is not found')
+    const body = await context.request.body({ type: 'form-data' })
+    const data = await body.value.read()
+	const comment = data.fields.comment 
+	if(Boolean(comment == false)) throw new Error('comment is not found')
+	const commentFunction = await insertNewComment(id,authorised, comment)
+	console.log(commentFunction)
+	context.response.redirect('/')
 })
 export default router

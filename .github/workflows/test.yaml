@@ -15,3 +15,12 @@ jobs:
           deno-version: v1.14.0
     - name: Check formatting
         run: deno fmt --check
+    
+    - name: Analyze code
+        run: deno lint
+
+      - name: Run unit and integration tests
+        run: deno test -A --coverage=cov --doc
+
+      - name: Generate coverage report
+        run: deno coverage --lcov cov > cov.lcov

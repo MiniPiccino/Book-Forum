@@ -42,6 +42,17 @@
 				<article id = "descriptionOutput"><p><p></article>
                 <p> Added: {{this.added}}</p>
                 <p> Username of the person who added this forum topic: {{this.username}} </p>
+				<form action="/details/{{this.IDForum}}" method="post" enctype = "multipart/form-data">
+				<label>New Comment: </label>
+                	<textarea name= "comment" id = "comment" required/></textarea><br>
+				<label><input type = "submit" name="submit" /></a></label>
+				</form>
+				{{#each ../comment}}
+				<hr>
+				<p> Comment: {{this.comment}}</p>
+				<p> Username of posted comment: {{this.username}}</p>
+				<p> Added Comment: {{this.added}}<p>
+				{{/each}}
 			</figure>
 			{{/each}}
 			</article>
