@@ -1,0 +1,688 @@
+{
+  "scriptId": "104",
+  "url": "https://deno.land/x/puppeteer@9.0.2/vendor/puppeteer-core/puppeteer/common/FrameManager.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 35177,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "FrameManager",
+      "ranges": [
+        {
+          "startOffset": 1860,
+          "endOffset": 3466,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "initialize",
+      "ranges": [
+        {
+          "startOffset": 3469,
+          "endOffset": 3971,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "networkManager",
+      "ranges": [
+        {
+          "startOffset": 3974,
+          "endOffset": 4029,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "navigateFrame",
+      "ranges": [
+        {
+          "startOffset": 4032,
+          "endOffset": 5370,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "waitForFrameNavigation",
+      "ranges": [
+        {
+          "startOffset": 5373,
+          "endOffset": 5956,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_onFrameMoved",
+      "ranges": [
+        {
+          "startOffset": 5959,
+          "endOffset": 6455,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_onLifecycleEvent",
+      "ranges": [
+        {
+          "startOffset": 6458,
+          "endOffset": 6698,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_onFrameStoppedLoading",
+      "ranges": [
+        {
+          "startOffset": 6701,
+          "endOffset": 6916,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_handleFrameTree",
+      "ranges": [
+        {
+          "startOffset": 6919,
+          "endOffset": 7259,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "page",
+      "ranges": [
+        {
+          "startOffset": 7262,
+          "endOffset": 7297,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "mainFrame",
+      "ranges": [
+        {
+          "startOffset": 7300,
+          "endOffset": 7345,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "frames",
+      "ranges": [
+        {
+          "startOffset": 7348,
+          "endOffset": 7408,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "frame",
+      "ranges": [
+        {
+          "startOffset": 7411,
+          "endOffset": 7477,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_onFrameAttached",
+      "ranges": [
+        {
+          "startOffset": 7480,
+          "endOffset": 7827,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_onFrameNavigated",
+      "ranges": [
+        {
+          "startOffset": 7830,
+          "endOffset": 8873,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_ensureIsolatedWorld",
+      "ranges": [
+        {
+          "startOffset": 8876,
+          "endOffset": 9505,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_onFrameNavigatedWithinDocument",
+      "ranges": [
+        {
+          "startOffset": 9508,
+          "endOffset": 9825,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_onFrameDetached",
+      "ranges": [
+        {
+          "startOffset": 9828,
+          "endOffset": 9971,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_onExecutionContextCreated",
+      "ranges": [
+        {
+          "startOffset": 9974,
+          "endOffset": 10891,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_onExecutionContextDestroyed",
+      "ranges": [
+        {
+          "startOffset": 10894,
+          "endOffset": 11187,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_onExecutionContextsCleared",
+      "ranges": [
+        {
+          "startOffset": 11190,
+          "endOffset": 11410,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "executionContextById",
+      "ranges": [
+        {
+          "startOffset": 11413,
+          "endOffset": 11610,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_removeFramesRecursively",
+      "ranges": [
+        {
+          "startOffset": 11613,
+          "endOffset": 11867,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Frame",
+      "ranges": [
+        {
+          "startOffset": 13235,
+          "endOffset": 14002,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "goto",
+      "ranges": [
+        {
+          "startOffset": 15637,
+          "endOffset": 15743,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "waitForNavigation",
+      "ranges": [
+        {
+          "startOffset": 16593,
+          "endOffset": 16711,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "executionContext",
+      "ranges": [
+        {
+          "startOffset": 16810,
+          "endOffset": 16881,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "evaluateHandle",
+      "ranges": [
+        {
+          "startOffset": 17401,
+          "endOffset": 17516,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "evaluate",
+      "ranges": [
+        {
+          "startOffset": 17847,
+          "endOffset": 17950,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$",
+      "ranges": [
+        {
+          "startOffset": 18211,
+          "endOffset": 18274,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$x",
+      "ranges": [
+        {
+          "startOffset": 18440,
+          "endOffset": 18509,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$eval",
+      "ranges": [
+        {
+          "startOffset": 19147,
+          "endOffset": 19264,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$$eval",
+      "ranges": [
+        {
+          "startOffset": 19929,
+          "endOffset": 20048,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$$",
+      "ranges": [
+        {
+          "startOffset": 20286,
+          "endOffset": 20351,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "content",
+      "ranges": [
+        {
+          "startOffset": 20444,
+          "endOffset": 20508,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "setContent",
+      "ranges": [
+        {
+          "startOffset": 20766,
+          "endOffset": 20867,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "name",
+      "ranges": [
+        {
+          "startOffset": 21191,
+          "endOffset": 21232,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "url",
+      "ranges": [
+        {
+          "startOffset": 21282,
+          "endOffset": 21315,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "parentFrame",
+      "ranges": [
+        {
+          "startOffset": 21416,
+          "endOffset": 21465,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "childFrames",
+      "ranges": [
+        {
+          "startOffset": 21524,
+          "endOffset": 21585,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isDetached",
+      "ranges": [
+        {
+          "startOffset": 21679,
+          "endOffset": 21724,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "addScriptTag",
+      "ranges": [
+        {
+          "startOffset": 22062,
+          "endOffset": 22145,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "addStyleTag",
+      "ranges": [
+        {
+          "startOffset": 22545,
+          "endOffset": 22626,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "click",
+      "ranges": [
+        {
+          "startOffset": 23597,
+          "endOffset": 23696,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "focus",
+      "ranges": [
+        {
+          "startOffset": 24021,
+          "endOffset": 24097,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "hover",
+      "ranges": [
+        {
+          "startOffset": 24520,
+          "endOffset": 24596,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "select",
+      "ranges": [
+        {
+          "startOffset": 25367,
+          "endOffset": 25461,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "tap",
+      "ranges": [
+        {
+          "startOffset": 25890,
+          "endOffset": 25962,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "type",
+      "ranges": [
+        {
+          "startOffset": 26804,
+          "endOffset": 26903,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "waitFor",
+      "ranges": [
+        {
+          "startOffset": 27990,
+          "endOffset": 29030,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "waitForTimeout",
+      "ranges": [
+        {
+          "startOffset": 29577,
+          "endOffset": 29698,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "waitForSelector",
+      "ranges": [
+        {
+          "startOffset": 30940,
+          "endOffset": 31333,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "waitForXPath",
+      "ranges": [
+        {
+          "startOffset": 32008,
+          "endOffset": 32370,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "waitForFunction",
+      "ranges": [
+        {
+          "startOffset": 33550,
+          "endOffset": 33684,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "title",
+      "ranges": [
+        {
+          "startOffset": 33736,
+          "endOffset": 33796,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_navigated",
+      "ranges": [
+        {
+          "startOffset": 33830,
+          "endOffset": 33968,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_navigatedWithinDocument",
+      "ranges": [
+        {
+          "startOffset": 34002,
+          "endOffset": 34058,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_onLifecycleEvent",
+      "ranges": [
+        {
+          "startOffset": 34092,
+          "endOffset": 34271,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_onLoadingStopped",
+      "ranges": [
+        {
+          "startOffset": 34305,
+          "endOffset": 34420,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_detach",
+      "ranges": [
+        {
+          "startOffset": 34454,
+          "endOffset": 34679,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "assertNoLegacyNavigationOptions",
+      "ranges": [
+        {
+          "startOffset": 34682,
+          "endOffset": 35135,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

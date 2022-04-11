@@ -1,0 +1,49 @@
+{
+  "scriptId": "216",
+  "url": "https://dev.jspm.io/npm:set-immediate-shim@1.0.1/index.dew.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 331,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "dew",
+      "ranges": [
+        {
+          "startOffset": 47,
+          "endOffset": 331,
+          "count": 1
+        },
+        {
+          "startOffset": 80,
+          "endOffset": 95,
+          "count": 0
+        },
+        {
+          "startOffset": 162,
+          "endOffset": 176,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "setImmediate",
+      "ranges": [
+        {
+          "startOffset": 179,
+          "endOffset": 310,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

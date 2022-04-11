@@ -1,0 +1,55 @@
+{
+  "scriptId": "212",
+  "url": "https://dev.jspm.io/npm:jszip@3.5.0/lib/reader/Uint8ArrayReader.dew.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 904,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "dew",
+      "ranges": [
+        {
+          "startOffset": 168,
+          "endOffset": 904,
+          "count": 2
+        },
+        {
+          "startOffset": 201,
+          "endOffset": 903,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Uint8ArrayReader",
+      "ranges": [
+        {
+          "startOffset": 313,
+          "endOffset": 384,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Uint8ArrayReader.readData",
+      "ranges": [
+        {
+          "startOffset": 518,
+          "endOffset": 852,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

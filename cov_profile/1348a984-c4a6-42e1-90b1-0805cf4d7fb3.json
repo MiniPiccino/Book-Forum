@@ -1,0 +1,38 @@
+{
+  "scriptId": "232",
+  "url": "https://dev.jspm.io/npm:pako@1.0.11/lib/zlib/messages.dew.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1661,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "dew",
+      "ranges": [
+        {
+          "startOffset": 47,
+          "endOffset": 1661,
+          "count": 3
+        },
+        {
+          "startOffset": 80,
+          "endOffset": 95,
+          "count": 2
+        },
+        {
+          "startOffset": 95,
+          "endOffset": 1660,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

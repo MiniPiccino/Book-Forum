@@ -1,0 +1,198 @@
+{
+  "scriptId": "176",
+  "url": "https://dev.jspm.io/npm:jszip@3.5.0/lib/object.dew.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 12917,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "dew",
+      "ranges": [
+        {
+          "startOffset": 731,
+          "endOffset": 12917,
+          "count": 1
+        },
+        {
+          "startOffset": 764,
+          "endOffset": 779,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "fileAdd",
+      "ranges": [
+        {
+          "startOffset": 1530,
+          "endOffset": 3865,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "parentFolder",
+      "ranges": [
+        {
+          "startOffset": 4046,
+          "endOffset": 4262,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "forceTrailingSlash",
+      "ranges": [
+        {
+          "startOffset": 4465,
+          "endOffset": 4629,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "folderAdd",
+      "ranges": [
+        {
+          "startOffset": 4913,
+          "endOffset": 5291,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isRegExp",
+      "ranges": [
+        {
+          "startOffset": 5505,
+          "endOffset": 5609,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "load",
+      "ranges": [
+        {
+          "startOffset": 5714,
+          "endOffset": 5834,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "forEach",
+      "ranges": [
+        {
+          "startOffset": 6091,
+          "endOffset": 6657,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "filter",
+      "ranges": [
+        {
+          "startOffset": 6966,
+          "endOffset": 7223,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "file",
+      "ranges": [
+        {
+          "startOffset": 7783,
+          "endOffset": 8423,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "folder",
+      "ranges": [
+        {
+          "startOffset": 8716,
+          "endOffset": 9216,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "remove",
+      "ranges": [
+        {
+          "startOffset": 9416,
+          "endOffset": 10076,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "generate",
+      "ranges": [
+        {
+          "startOffset": 10427,
+          "endOffset": 10554,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "generateInternalStream",
+      "ranges": [
+        {
+          "startOffset": 10923,
+          "endOffset": 12291,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "generateAsync",
+      "ranges": [
+        {
+          "startOffset": 12418,
+          "endOffset": 12526,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "generateNodeStream",
+      "ranges": [
+        {
+          "startOffset": 12658,
+          "endOffset": 12875,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

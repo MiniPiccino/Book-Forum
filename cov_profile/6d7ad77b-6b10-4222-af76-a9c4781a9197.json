@@ -1,0 +1,39 @@
+{
+  "scriptId": "135",
+  "url": "https://deno.land/x/puppeteer@9.0.2/vendor/puppeteer-core/puppeteer/common/EmulationManager.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1158,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "EmulationManager",
+      "ranges": [
+        {
+          "startOffset": 84,
+          "endOffset": 199,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "emulateViewport",
+      "ranges": [
+        {
+          "startOffset": 202,
+          "endOffset": 1110,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

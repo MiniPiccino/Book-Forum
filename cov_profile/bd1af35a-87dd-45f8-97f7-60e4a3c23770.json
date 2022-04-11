@@ -1,0 +1,17 @@
+{
+  "scriptId": "99",
+  "url": "file:///home/codio/workspace/modules/db.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 523,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

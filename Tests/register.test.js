@@ -8,7 +8,7 @@ import { register } from '../modules/accounts.js'
 Deno.test({name: 'checking if the username and password are there', async fn() {
     //arrange
     const cred = {
-      username: "user100",
+      username: "user25",
       password: "p455w0rd"
     }
     //act

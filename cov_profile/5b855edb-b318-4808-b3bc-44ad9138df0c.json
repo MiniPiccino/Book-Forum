@@ -1,0 +1,179 @@
+{
+  "scriptId": "231",
+  "url": "https://dev.jspm.io/npm:pako@1.0.11/lib/utils/strings.dew.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 5824,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "dew",
+      "ranges": [
+        {
+          "startOffset": 103,
+          "endOffset": 5824,
+          "count": 2
+        },
+        {
+          "startOffset": 136,
+          "endOffset": 489,
+          "count": 1
+        },
+        {
+          "startOffset": 489,
+          "endOffset": 531,
+          "count": 0
+        },
+        {
+          "startOffset": 531,
+          "endOffset": 601,
+          "count": 1
+        },
+        {
+          "startOffset": 601,
+          "endOffset": 647,
+          "count": 0
+        },
+        {
+          "startOffset": 647,
+          "endOffset": 922,
+          "count": 1
+        },
+        {
+          "startOffset": 922,
+          "endOffset": 1023,
+          "count": 256
+        },
+        {
+          "startOffset": 951,
+          "endOffset": 954,
+          "count": 4
+        },
+        {
+          "startOffset": 955,
+          "endOffset": 1018,
+          "count": 252
+        },
+        {
+          "startOffset": 966,
+          "endOffset": 969,
+          "count": 4
+        },
+        {
+          "startOffset": 970,
+          "endOffset": 1018,
+          "count": 248
+        },
+        {
+          "startOffset": 981,
+          "endOffset": 984,
+          "count": 8
+        },
+        {
+          "startOffset": 985,
+          "endOffset": 1018,
+          "count": 240
+        },
+        {
+          "startOffset": 996,
+          "endOffset": 999,
+          "count": 16
+        },
+        {
+          "startOffset": 1000,
+          "endOffset": 1018,
+          "count": 224
+        },
+        {
+          "startOffset": 1011,
+          "endOffset": 1014,
+          "count": 32
+        },
+        {
+          "startOffset": 1015,
+          "endOffset": 1018,
+          "count": 192
+        },
+        {
+          "startOffset": 1023,
+          "endOffset": 5823,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "exports.string2buf",
+      "ranges": [
+        {
+          "startOffset": 1164,
+          "endOffset": 2699,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "buf2binstring",
+      "ranges": [
+        {
+          "startOffset": 2734,
+          "endOffset": 3305,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exports.buf2binstring",
+      "ranges": [
+        {
+          "startOffset": 3373,
+          "endOffset": 3436,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exports.binstring2buf",
+      "ranges": [
+        {
+          "startOffset": 3514,
+          "endOffset": 3688,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exports.buf2string",
+      "ranges": [
+        {
+          "startOffset": 3742,
+          "endOffset": 4926,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exports.utf8border",
+      "ranges": [
+        {
+          "startOffset": 5186,
+          "endOffset": 5802,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

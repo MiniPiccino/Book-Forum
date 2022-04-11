@@ -1,0 +1,88 @@
+{
+  "scriptId": "210",
+  "url": "https://dev.jspm.io/npm:jszip@3.5.0/lib/reader/StringReader.dew.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1306,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "dew",
+      "ranges": [
+        {
+          "startOffset": 166,
+          "endOffset": 1306,
+          "count": 1
+        },
+        {
+          "startOffset": 199,
+          "endOffset": 214,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "StringReader",
+      "ranges": [
+        {
+          "startOffset": 309,
+          "endOffset": 375,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "StringReader.byteAt",
+      "ranges": [
+        {
+          "startOffset": 496,
+          "endOffset": 562,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "StringReader.lastIndexOfSignature",
+      "ranges": [
+        {
+          "startOffset": 668,
+          "endOffset": 739,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "StringReader.readAndCheckSignature",
+      "ranges": [
+        {
+          "startOffset": 847,
+          "endOffset": 925,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "StringReader.readData",
+      "ranges": [
+        {
+          "startOffset": 1007,
+          "endOffset": 1258,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

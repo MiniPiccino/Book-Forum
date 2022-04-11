@@ -1,0 +1,165 @@
+{
+  "scriptId": "208",
+  "url": "https://dev.jspm.io/npm:jszip@3.5.0/lib/zipEntry.dew.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 11327,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "dew",
+      "ranges": [
+        {
+          "startOffset": 478,
+          "endOffset": 11327,
+          "count": 1
+        },
+        {
+          "startOffset": 511,
+          "endOffset": 526,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "findCompression",
+      "ranges": [
+        {
+          "startOffset": 1089,
+          "endOffset": 1370,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "ZipEntry",
+      "ranges": [
+        {
+          "startOffset": 1583,
+          "endOffset": 1692,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isEncrypted",
+      "ranges": [
+        {
+          "startOffset": 1862,
+          "endOffset": 1952,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "useUTF8",
+      "ranges": [
+        {
+          "startOffset": 2119,
+          "endOffset": 2210,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "readLocalPart",
+      "ranges": [
+        {
+          "startOffset": 2375,
+          "endOffset": 4742,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "readCentralPart",
+      "ranges": [
+        {
+          "startOffset": 4911,
+          "endOffset": 6005,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "processAttributes",
+      "ranges": [
+        {
+          "startOffset": 6123,
+          "endOffset": 7009,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "parseZIP64ExtraField",
+      "ranges": [
+        {
+          "startOffset": 7186,
+          "endOffset": 8013,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "readExtraFields",
+      "ranges": [
+        {
+          "startOffset": 8182,
+          "endOffset": 8789,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "handleUTF8",
+      "ranges": [
+        {
+          "startOffset": 8871,
+          "endOffset": 9885,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "findExtraFieldUnicodePath",
+      "ranges": [
+        {
+          "startOffset": 10059,
+          "endOffset": 10571,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "findExtraFieldUnicodeComment",
+      "ranges": [
+        {
+          "startOffset": 10754,
+          "endOffset": 11280,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

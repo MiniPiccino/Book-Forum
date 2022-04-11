@@ -1,0 +1,72 @@
+{
+  "scriptId": "160",
+  "url": "https://deno.land/std@0.93.0/io/buffer.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 23434,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "copyBytes",
+      "ranges": [
+        {
+          "startOffset": 103,
+          "endOffset": 300,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 327,
+          "endOffset": 2980,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "grow",
+      "ranges": [
+        {
+          "startOffset": 2986,
+          "endOffset": 3147,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "readFrom",
+      "ranges": [
+        {
+          "startOffset": 3152,
+          "endOffset": 3764,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "readFromSync",
+      "ranges": [
+        {
+          "startOffset": 3769,
+          "endOffset": 4377,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "scriptId": "201",
+  "url": "https://dev.jspm.io/npm:jszip@3.5.0/lib/compressions.dew.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 606,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "dew",
+      "ranges": [
+        {
+          "startOffset": 178,
+          "endOffset": 606,
+          "count": 2
+        },
+        {
+          "startOffset": 211,
+          "endOffset": 605,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "compressWorker",
+      "ranges": [
+        {
+          "startOffset": 357,
+          "endOffset": 447,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "uncompressWorker",
+      "ranges": [
+        {
+          "startOffset": 471,
+          "endOffset": 545,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

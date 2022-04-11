@@ -1,0 +1,105 @@
+{
+  "scriptId": "101",
+  "url": "https://deno.land/x/puppeteer@9.0.2/vendor/puppeteer-core/puppeteer/common/ExecutionContext.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 12942,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "ExecutionContext",
+      "ranges": [
+        {
+          "startOffset": 1703,
+          "endOffset": 1889,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "frame",
+      "ranges": [
+        {
+          "startOffset": 2176,
+          "endOffset": 2242,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "evaluate",
+      "ranges": [
+        {
+          "startOffset": 4014,
+          "endOffset": 4127,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "evaluateHandle",
+      "ranges": [
+        {
+          "startOffset": 5788,
+          "endOffset": 5902,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_evaluateInternal",
+      "ranges": [
+        {
+          "startOffset": 5905,
+          "endOffset": 10830,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "queryObjects",
+      "ranges": [
+        {
+          "startOffset": 11690,
+          "endOffset": 12134,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_adoptBackendNodeId",
+      "ranges": [
+        {
+          "startOffset": 12168,
+          "endOffset": 12410,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_adoptElementHandle",
+      "ranges": [
+        {
+          "startOffset": 12444,
+          "endOffset": 12894,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

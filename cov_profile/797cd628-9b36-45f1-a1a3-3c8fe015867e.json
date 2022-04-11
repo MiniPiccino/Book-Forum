@@ -1,0 +1,116 @@
+{
+  "scriptId": "100",
+  "url": "https://deno.land/std@0.91.0/datetime/mod.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 22933,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 241,
+          "endOffset": 490,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "parse",
+      "ranges": [
+        {
+          "startOffset": 519,
+          "endOffset": 784,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "format",
+      "ranges": [
+        {
+          "startOffset": 792,
+          "endOffset": 925,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "dayOfYear",
+      "ranges": [
+        {
+          "startOffset": 933,
+          "endOffset": 1237,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "weekOfYear",
+      "ranges": [
+        {
+          "startOffset": 1245,
+          "endOffset": 1739,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "toIMF",
+      "ranges": [
+        {
+          "startOffset": 1747,
+          "endOffset": 2477,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isLeap",
+      "ranges": [
+        {
+          "startOffset": 2485,
+          "endOffset": 2672,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "difference",
+      "ranges": [
+        {
+          "startOffset": 2680,
+          "endOffset": 4655,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "calculateMonthsDifference",
+      "ranges": [
+        {
+          "startOffset": 4656,
+          "endOffset": 5410,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

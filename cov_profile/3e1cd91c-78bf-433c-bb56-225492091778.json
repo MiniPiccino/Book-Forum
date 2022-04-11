@@ -1,0 +1,424 @@
+{
+  "scriptId": "100",
+  "url": "https://deno.land/x/puppeteer@9.0.2/vendor/puppeteer-core/puppeteer/common/JSHandle.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 26823,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "createJSHandle",
+      "ranges": [
+        {
+          "startOffset": 890,
+          "endOffset": 1278,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "JSHandle",
+      "ranges": [
+        {
+          "startOffset": 1982,
+          "endOffset": 2194,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "executionContext",
+      "ranges": [
+        {
+          "startOffset": 2264,
+          "endOffset": 2314,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "evaluate",
+      "ranges": [
+        {
+          "startOffset": 2730,
+          "endOffset": 2853,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "evaluateHandle",
+      "ranges": [
+        {
+          "startOffset": 3406,
+          "endOffset": 3566,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getProperty",
+      "ranges": [
+        {
+          "startOffset": 3637,
+          "endOffset": 4058,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getProperties",
+      "ranges": [
+        {
+          "startOffset": 4648,
+          "endOffset": 5068,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "jsonValue",
+      "ranges": [
+        {
+          "startOffset": 5580,
+          "endOffset": 6018,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "asElement",
+      "ranges": [
+        {
+          "startOffset": 6162,
+          "endOffset": 6298,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "dispose",
+      "ranges": [
+        {
+          "startOffset": 6432,
+          "endOffset": 6592,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "toString",
+      "ranges": [
+        {
+          "startOffset": 6713,
+          "endOffset": 6956,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "ElementHandle",
+      "ranges": [
+        {
+          "startOffset": 8124,
+          "endOffset": 8362,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "asElement",
+      "ranges": [
+        {
+          "startOffset": 8365,
+          "endOffset": 8399,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "contentFrame",
+      "ranges": [
+        {
+          "startOffset": 8524,
+          "endOffset": 8808,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_scrollIntoViewIfNeeded",
+      "ranges": [
+        {
+          "startOffset": 8811,
+          "endOffset": 10469,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_clickablePoint",
+      "ranges": [
+        {
+          "startOffset": 10472,
+          "endOffset": 11600,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_getBoxModel",
+      "ranges": [
+        {
+          "startOffset": 11603,
+          "endOffset": 11803,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_fromProtocolQuad",
+      "ranges": [
+        {
+          "startOffset": 11806,
+          "endOffset": 11991,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_intersectQuadWithViewport",
+      "ranges": [
+        {
+          "startOffset": 11994,
+          "endOffset": 12187,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "hover",
+      "ranges": [
+        {
+          "startOffset": 12413,
+          "endOffset": 12564,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "click",
+      "ranges": [
+        {
+          "startOffset": 12788,
+          "endOffset": 12961,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "select",
+      "ranges": [
+        {
+          "startOffset": 13534,
+          "endOffset": 14493,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "uploadFile",
+      "ranges": [
+        {
+          "startOffset": 14938,
+          "endOffset": 16497,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "tap",
+      "ranges": [
+        {
+          "startOffset": 16724,
+          "endOffset": 16878,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "focus",
+      "ranges": [
+        {
+          "startOffset": 17007,
+          "endOffset": 17081,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "type",
+      "ranges": [
+        {
+          "startOffset": 17804,
+          "endOffset": 17910,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "press",
+      "ranges": [
+        {
+          "startOffset": 18538,
+          "endOffset": 18644,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "boundingBox",
+      "ranges": [
+        {
+          "startOffset": 18798,
+          "endOffset": 19244,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "boxModel",
+      "ranges": [
+        {
+          "startOffset": 19508,
+          "endOffset": 19933,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "screenshot",
+      "ranges": [
+        {
+          "startOffset": 20160,
+          "endOffset": 21514,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$",
+      "ranges": [
+        {
+          "startOffset": 21664,
+          "endOffset": 21841,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$$",
+      "ranges": [
+        {
+          "startOffset": 21991,
+          "endOffset": 22169,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$eval",
+      "ranges": [
+        {
+          "startOffset": 22802,
+          "endOffset": 23612,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$$eval",
+      "ranges": [
+        {
+          "startOffset": 24366,
+          "endOffset": 24858,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$x",
+      "ranges": [
+        {
+          "startOffset": 25163,
+          "endOffset": 25945,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isIntersectingViewport",
+      "ranges": [
+        {
+          "startOffset": 26037,
+          "endOffset": 26428,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "computeQuadArea",
+      "ranges": [
+        {
+          "startOffset": 26431,
+          "endOffset": 26785,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

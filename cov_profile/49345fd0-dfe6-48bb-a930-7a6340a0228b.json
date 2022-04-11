@@ -1,0 +1,127 @@
+{
+  "scriptId": "114",
+  "url": "https://deno.land/x/puppeteer@9.0.2/vendor/puppeteer-core/puppeteer/common/Target.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 4893,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Target",
+      "ranges": [
+        {
+          "startOffset": 809,
+          "endOffset": 2197,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "createCDPSession",
+      "ranges": [
+        {
+          "startOffset": 2288,
+          "endOffset": 2347,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "page",
+      "ranges": [
+        {
+          "startOffset": 2449,
+          "endOffset": 2899,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "worker",
+      "ranges": [
+        {
+          "startOffset": 3009,
+          "endOffset": 3550,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "url",
+      "ranges": [
+        {
+          "startOffset": 3553,
+          "endOffset": 3597,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "type",
+      "ranges": [
+        {
+          "startOffset": 3812,
+          "endOffset": 4109,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "browser",
+      "ranges": [
+        {
+          "startOffset": 4172,
+          "endOffset": 4230,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "browserContext",
+      "ranges": [
+        {
+          "startOffset": 4233,
+          "endOffset": 4288,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "opener",
+      "ranges": [
+        {
+          "startOffset": 4385,
+          "endOffset": 4538,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_targetInfoChanged",
+      "ranges": [
+        {
+          "startOffset": 4572,
+          "endOffset": 4855,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

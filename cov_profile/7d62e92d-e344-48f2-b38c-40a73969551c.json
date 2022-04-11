@@ -1,0 +1,412 @@
+{
+  "scriptId": "8",
+  "url": "deno:ext/console/02_console.js",
+  "functions": [
+    {
+      "functionName": "maybeColor",
+      "ranges": [
+        {
+          "startOffset": 8108,
+          "endOffset": 8203,
+          "count": 36
+        },
+        {
+          "startOffset": 8183,
+          "endOffset": 8187,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 8190,
+          "endOffset": 8198,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_inspectValue",
+      "ranges": [
+        {
+          "startOffset": 17157,
+          "endOffset": 18938,
+          "count": 6
+        },
+        {
+          "startOffset": 17312,
+          "endOffset": 17339,
+          "count": 0
+        },
+        {
+          "startOffset": 17341,
+          "endOffset": 17412,
+          "count": 0
+        },
+        {
+          "startOffset": 17801,
+          "endOffset": 17857,
+          "count": 0
+        },
+        {
+          "startOffset": 17864,
+          "endOffset": 17998,
+          "count": 0
+        },
+        {
+          "startOffset": 18005,
+          "endOffset": 18081,
+          "count": 0
+        },
+        {
+          "startOffset": 18088,
+          "endOffset": 18162,
+          "count": 0
+        },
+        {
+          "startOffset": 18169,
+          "endOffset": 18251,
+          "count": 0
+        },
+        {
+          "startOffset": 18258,
+          "endOffset": 18330,
+          "count": 0
+        },
+        {
+          "startOffset": 18337,
+          "endOffset": 18556,
+          "count": 0
+        },
+        {
+          "startOffset": 18622,
+          "endOffset": 18664,
+          "count": 0
+        },
+        {
+          "startOffset": 18693,
+          "endOffset": 18778,
+          "count": 0
+        },
+        {
+          "startOffset": 18845,
+          "endOffset": 18928,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "inspectValue",
+      "ranges": [
+        {
+          "startOffset": 18942,
+          "endOffset": 19206,
+          "count": 6
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "ctxHas",
+      "ranges": [
+        {
+          "startOffset": 21791,
+          "endOffset": 21963,
+          "count": 6
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "inspectObject",
+      "ranges": [
+        {
+          "startOffset": 32180,
+          "endOffset": 34581,
+          "count": 6
+        },
+        {
+          "startOffset": 32283,
+          "endOffset": 32328,
+          "count": 0
+        },
+        {
+          "startOffset": 32330,
+          "endOffset": 32389,
+          "count": 0
+        },
+        {
+          "startOffset": 32755,
+          "endOffset": 32813,
+          "count": 0
+        },
+        {
+          "startOffset": 32820,
+          "endOffset": 33154,
+          "count": 0
+        },
+        {
+          "startOffset": 33228,
+          "endOffset": 34577,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "inspectArgs",
+      "ranges": [
+        {
+          "startOffset": 47105,
+          "endOffset": 50465,
+          "count": 6
+        },
+        {
+          "startOffset": 47200,
+          "endOffset": 47207,
+          "count": 0
+        },
+        {
+          "startOffset": 47385,
+          "endOffset": 47403,
+          "count": 0
+        },
+        {
+          "startOffset": 47405,
+          "endOffset": 49861,
+          "count": 0
+        },
+        {
+          "startOffset": 49915,
+          "endOffset": 49947,
+          "count": 0
+        },
+        {
+          "startOffset": 49986,
+          "endOffset": 50022,
+          "count": 0
+        },
+        {
+          "startOffset": 50217,
+          "endOffset": 50441,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 50758,
+          "endOffset": 58263,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Console",
+      "ranges": [
+        {
+          "startOffset": 50815,
+          "endOffset": 51505,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "log",
+      "ranges": [
+        {
+          "startOffset": 51517,
+          "endOffset": 51709,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "debug",
+      "ranges": [
+        {
+          "startOffset": 51724,
+          "endOffset": 51916,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "info",
+      "ranges": [
+        {
+          "startOffset": 51930,
+          "endOffset": 52122,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "dir",
+      "ranges": [
+        {
+          "startOffset": 52135,
+          "endOffset": 52312,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "warn",
+      "ranges": [
+        {
+          "startOffset": 52350,
+          "endOffset": 52542,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "error",
+      "ranges": [
+        {
+          "startOffset": 52557,
+          "endOffset": 52749,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "assert",
+      "ranges": [
+        {
+          "startOffset": 52765,
+          "endOffset": 53157,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "count",
+      "ranges": [
+        {
+          "startOffset": 53172,
+          "endOffset": 53531,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "countReset",
+      "ranges": [
+        {
+          "startOffset": 53551,
+          "endOffset": 53783,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "table",
+      "ranges": [
+        {
+          "startOffset": 53798,
+          "endOffset": 56538,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "time",
+      "ranges": [
+        {
+          "startOffset": 56552,
+          "endOffset": 56788,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "timeLog",
+      "ranges": [
+        {
+          "startOffset": 56805,
+          "endOffset": 57159,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "timeEnd",
+      "ranges": [
+        {
+          "startOffset": 57176,
+          "endOffset": 57555,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "group",
+      "ranges": [
+        {
+          "startOffset": 57570,
+          "endOffset": 57686,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "groupEnd",
+      "ranges": [
+        {
+          "startOffset": 57738,
+          "endOffset": 57824,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "clear",
+      "ranges": [
+        {
+          "startOffset": 57839,
+          "endOffset": 57966,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "trace",
+      "ranges": [
+        {
+          "startOffset": 57981,
+          "endOffset": 58263,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

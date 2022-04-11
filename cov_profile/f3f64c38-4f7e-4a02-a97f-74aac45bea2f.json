@@ -1,0 +1,17 @@
+{
+  "scriptId": "146",
+  "url": "https://deno.land/std@0.93.0/io/mod.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 997,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

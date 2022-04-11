@@ -1,0 +1,204 @@
+{
+  "scriptId": "106",
+  "url": "https://deno.land/x/puppeteer@9.0.2/vendor/puppeteer-core/puppeteer/common/Input.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 15333,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Keyboard",
+      "ranges": [
+        {
+          "startOffset": 2023,
+          "endOffset": 2156,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "down",
+      "ranges": [
+        {
+          "startOffset": 3322,
+          "endOffset": 4078,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_modifierBit",
+      "ranges": [
+        {
+          "startOffset": 4081,
+          "endOffset": 4313,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_keyDescriptionForString",
+      "ranges": [
+        {
+          "startOffset": 4316,
+          "endOffset": 5552,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "up",
+      "ranges": [
+        {
+          "startOffset": 5751,
+          "endOffset": 6203,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "sendCharacter",
+      "ranges": [
+        {
+          "startOffset": 6656,
+          "endOffset": 6752,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "charIsKey",
+      "ranges": [
+        {
+          "startOffset": 6755,
+          "endOffset": 6811,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "type",
+      "ranges": [
+        {
+          "startOffset": 7613,
+          "endOffset": 7956,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "press",
+      "ranges": [
+        {
+          "startOffset": 8821,
+          "endOffset": 9039,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Mouse",
+      "ranges": [
+        {
+          "startOffset": 11176,
+          "endOffset": 11330,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "move",
+      "ranges": [
+        {
+          "startOffset": 11636,
+          "endOffset": 12108,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "click",
+      "ranges": [
+        {
+          "startOffset": 12339,
+          "endOffset": 12695,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "down",
+      "ranges": [
+        {
+          "startOffset": 12800,
+          "endOffset": 13120,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "up",
+      "ranges": [
+        {
+          "startOffset": 13223,
+          "endOffset": 13542,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "wheel",
+      "ranges": [
+        {
+          "startOffset": 14192,
+          "endOffset": 14499,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Touchscreen",
+      "ranges": [
+        {
+          "startOffset": 14634,
+          "endOffset": 14727,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "tap",
+      "ranges": [
+        {
+          "startOffset": 14897,
+          "endOffset": 15296,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

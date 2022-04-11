@@ -1,0 +1,193 @@
+{
+  "scriptId": "131",
+  "url": "https://deno.land/x/puppeteer@9.0.2/vendor/puppeteer-core/puppeteer/common/helper.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 8962,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getExceptionMessage",
+      "ranges": [
+        {
+          "startOffset": 897,
+          "endOffset": 1513,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "valueFromRemoteObject",
+      "ranges": [
+        {
+          "startOffset": 1514,
+          "endOffset": 2243,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "releaseObject",
+      "ranges": [
+        {
+          "startOffset": 2244,
+          "endOffset": 2655,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "addEventListener",
+      "ranges": [
+        {
+          "startOffset": 2656,
+          "endOffset": 2790,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "removeEventListeners",
+      "ranges": [
+        {
+          "startOffset": 2791,
+          "endOffset": 2976,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isString",
+      "ranges": [
+        {
+          "startOffset": 2977,
+          "endOffset": 3062,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isNumber",
+      "ranges": [
+        {
+          "startOffset": 3063,
+          "endOffset": 3148,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "waitForEvent",
+      "ranges": [
+        {
+          "startOffset": 3149,
+          "endOffset": 4091,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "evaluationString",
+      "ranges": [
+        {
+          "startOffset": 4092,
+          "endOffset": 4456,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "pageBindingInitString",
+      "ranges": [
+        {
+          "startOffset": 4457,
+          "endOffset": 5302,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "pageBindingDeliverResultString",
+      "ranges": [
+        {
+          "startOffset": 5303,
+          "endOffset": 5569,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "pageBindingDeliverErrorString",
+      "ranges": [
+        {
+          "startOffset": 5570,
+          "endOffset": 5918,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "pageBindingDeliverErrorValueString",
+      "ranges": [
+        {
+          "startOffset": 5919,
+          "endOffset": 6192,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "makePredicateString",
+      "ranges": [
+        {
+          "startOffset": 6193,
+          "endOffset": 7281,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "waitWithTimeout",
+      "ranges": [
+        {
+          "startOffset": 7282,
+          "endOffset": 7805,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "readProtocolStream",
+      "ranges": [
+        {
+          "startOffset": 7806,
+          "endOffset": 8536,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "scriptId": "220",
+  "url": "https://dev.jspm.io/npm:@jspm/core@1.1.1/nodelibs/chunk-0c2d1322.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 2581,
+          "count": 1
+        },
+        {
+          "startOffset": 53,
+          "endOffset": 90,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "i",
+      "ranges": [
+        {
+          "startOffset": 98,
+          "endOffset": 162,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "u",
+      "ranges": [
+        {
+          "startOffset": 162,
+          "endOffset": 228,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "c",
+      "ranges": [
+        {
+          "startOffset": 228,
+          "endOffset": 439,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 440,
+          "endOffset": 584,
+          "count": 1
+        },
+        {
+          "startOffset": 497,
+          "endOffset": 499,
+          "count": 0
+        },
+        {
+          "startOffset": 501,
+          "endOffset": 515,
+          "count": 0
+        },
+        {
+          "startOffset": 565,
+          "endOffset": 567,
+          "count": 0
+        },
+        {
+          "startOffset": 569,
+          "endOffset": 583,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "h",
+      "ranges": [
+        {
+          "startOffset": 608,
+          "endOffset": 677,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "d",
+      "ranges": [
+        {
+          "startOffset": 677,
+          "endOffset": 1008,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "m",
+      "ranges": [
+        {
+          "startOffset": 1008,
+          "endOffset": 1059,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "p",
+      "ranges": [
+        {
+          "startOffset": 1059,
+          "endOffset": 1073,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "o.nextTick",
+      "ranges": [
+        {
+          "startOffset": 1084,
+          "endOffset": 1251,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "m.run",
+      "ranges": [
+        {
+          "startOffset": 1268,
+          "endOffset": 1322,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "o.listeners",
+      "ranges": [
+        {
+          "startOffset": 1547,
+          "endOffset": 1569,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "o.binding",
+      "ranges": [
+        {
+          "startOffset": 1580,
+          "endOffset": 1644,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "o.cwd",
+      "ranges": [
+        {
+          "startOffset": 1651,
+          "endOffset": 1673,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "o.chdir",
+      "ranges": [
+        {
+          "startOffset": 1682,
+          "endOffset": 1744,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "o.umask",
+      "ranges": [
+        {
+          "startOffset": 1753,
+          "endOffset": 1773,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "scriptId": "205",
+  "url": "https://dev.jspm.io/npm:jszip@3.5.0/lib/signature.dew.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 426,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "dew",
+      "ranges": [
+        {
+          "startOffset": 47,
+          "endOffset": 426,
+          "count": 2
+        },
+        {
+          "startOffset": 80,
+          "endOffset": 425,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

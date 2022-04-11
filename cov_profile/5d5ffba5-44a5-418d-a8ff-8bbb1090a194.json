@@ -1,0 +1,208 @@
+{
+  "scriptId": "181",
+  "url": "https://dev.jspm.io/npm:jszip@3.5.0/lib/utf8.dew.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 8437,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "dew",
+      "ranges": [
+        {
+          "startOffset": 302,
+          "endOffset": 8437,
+          "count": 6
+        },
+        {
+          "startOffset": 335,
+          "endOffset": 350,
+          "count": 5
+        },
+        {
+          "startOffset": 350,
+          "endOffset": 960,
+          "count": 1
+        },
+        {
+          "startOffset": 960,
+          "endOffset": 1061,
+          "count": 256
+        },
+        {
+          "startOffset": 989,
+          "endOffset": 992,
+          "count": 4
+        },
+        {
+          "startOffset": 993,
+          "endOffset": 1056,
+          "count": 252
+        },
+        {
+          "startOffset": 1004,
+          "endOffset": 1007,
+          "count": 4
+        },
+        {
+          "startOffset": 1008,
+          "endOffset": 1056,
+          "count": 248
+        },
+        {
+          "startOffset": 1019,
+          "endOffset": 1022,
+          "count": 8
+        },
+        {
+          "startOffset": 1023,
+          "endOffset": 1056,
+          "count": 240
+        },
+        {
+          "startOffset": 1034,
+          "endOffset": 1037,
+          "count": 16
+        },
+        {
+          "startOffset": 1038,
+          "endOffset": 1056,
+          "count": 224
+        },
+        {
+          "startOffset": 1049,
+          "endOffset": 1052,
+          "count": 32
+        },
+        {
+          "startOffset": 1053,
+          "endOffset": 1056,
+          "count": 192
+        },
+        {
+          "startOffset": 1061,
+          "endOffset": 8436,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "string2buf",
+      "ranges": [
+        {
+          "startOffset": 1198,
+          "endOffset": 2817,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "utf8border",
+      "ranges": [
+        {
+          "startOffset": 3073,
+          "endOffset": 3698,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "buf2string",
+      "ranges": [
+        {
+          "startOffset": 3748,
+          "endOffset": 5186,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "utf8encode",
+      "ranges": [
+        {
+          "startOffset": 5474,
+          "endOffset": 5623,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "utf8decode",
+      "ranges": [
+        {
+          "startOffset": 5884,
+          "endOffset": 6127,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Utf8DecodeWorker",
+      "ranges": [
+        {
+          "startOffset": 6234,
+          "endOffset": 6407,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Utf8DecodeWorker.processChunk",
+      "ranges": [
+        {
+          "startOffset": 6554,
+          "endOffset": 7597,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Utf8DecodeWorker.flush",
+      "ranges": [
+        {
+          "startOffset": 7680,
+          "endOffset": 7874,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Utf8EncodeWorker",
+      "ranges": [
+        {
+          "startOffset": 8029,
+          "endOffset": 8108,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Utf8EncodeWorker.processChunk",
+      "ranges": [
+        {
+          "startOffset": 8255,
+          "endOffset": 8368,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

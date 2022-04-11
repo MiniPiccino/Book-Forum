@@ -1,0 +1,116 @@
+{
+  "scriptId": "109",
+  "url": "https://deno.land/x/puppeteer@9.0.2/vendor/puppeteer-core/puppeteer/common/Puppeteer.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 5423,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Puppeteer",
+      "ranges": [
+        {
+          "startOffset": 1434,
+          "endOffset": 1487,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "connect",
+      "ranges": [
+        {
+          "startOffset": 1740,
+          "endOffset": 1800,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get devices",
+      "ranges": [
+        {
+          "startOffset": 2513,
+          "endOffset": 2555,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get errors",
+      "ranges": [
+        {
+          "startOffset": 3271,
+          "endOffset": 3317,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get networkConditions",
+      "ranges": [
+        {
+          "startOffset": 4116,
+          "endOffset": 4175,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "registerCustomQueryHandler",
+      "ranges": [
+        {
+          "startOffset": 4828,
+          "endOffset": 4932,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "unregisterCustomQueryHandler",
+      "ranges": [
+        {
+          "startOffset": 5017,
+          "endOffset": 5097,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "customQueryHandlerNames",
+      "ranges": [
+        {
+          "startOffset": 5193,
+          "endOffset": 5262,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "clearCustomQueryHandlers",
+      "ranges": [
+        {
+          "startOffset": 5318,
+          "endOffset": 5382,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

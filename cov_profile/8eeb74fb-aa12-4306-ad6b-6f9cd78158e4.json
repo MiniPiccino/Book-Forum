@@ -1,0 +1,72 @@
+{
+  "scriptId": "164",
+  "url": "https://deno.land/std@0.93.0/io/streams.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 10958,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "readerFromIterable",
+      "ranges": [
+        {
+          "startOffset": 83,
+          "endOffset": 1121,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "writerFromStreamWriter",
+      "ranges": [
+        {
+          "startOffset": 1129,
+          "endOffset": 1342,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "readerFromStreamReader",
+      "ranges": [
+        {
+          "startOffset": 1350,
+          "endOffset": 1759,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "writableStreamFromWriter",
+      "ranges": [
+        {
+          "startOffset": 1767,
+          "endOffset": 1935,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "readableStreamFromIterable",
+      "ranges": [
+        {
+          "startOffset": 1943,
+          "endOffset": 2383,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

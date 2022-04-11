@@ -1,0 +1,22 @@
+{
+  "scriptId": "97",
+  "url": "https://deno.land/x/puppeteer@9.0.2/vendor/puppeteer-core/puppeteer/common/DeviceDescriptors.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 28253,
+          "count": 1
+        },
+        {
+          "startOffset": 28167,
+          "endOffset": 28206,
+          "count": 77
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

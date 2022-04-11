@@ -1,0 +1,28 @@
+{
+  "scriptId": "241",
+  "url": "https://dev.jspm.io/npm:lie@3.3.0/lib/browser.dew.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 7070,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "dew",
+      "ranges": [
+        {
+          "startOffset": 113,
+          "endOffset": 7070,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

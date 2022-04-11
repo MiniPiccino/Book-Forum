@@ -1,0 +1,193 @@
+{
+  "scriptId": "112",
+  "url": "https://deno.land/x/puppeteer@9.0.2/vendor/puppeteer-core/puppeteer/common/HTTPResponse.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 4248,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "HTTPResponse",
+      "ranges": [
+        {
+          "startOffset": 281,
+          "endOffset": 1201,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_resolveBody",
+      "ranges": [
+        {
+          "startOffset": 1235,
+          "endOffset": 1306,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "remoteAddress",
+      "ranges": [
+        {
+          "startOffset": 1415,
+          "endOffset": 1468,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "url",
+      "ranges": [
+        {
+          "startOffset": 1526,
+          "endOffset": 1559,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "ok",
+      "ranges": [
+        {
+          "startOffset": 1659,
+          "endOffset": 1782,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "status",
+      "ranges": [
+        {
+          "startOffset": 1874,
+          "endOffset": 1913,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "statusText",
+      "ranges": [
+        {
+          "startOffset": 2024,
+          "endOffset": 2071,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "headers",
+      "ranges": [
+        {
+          "startOffset": 2202,
+          "endOffset": 2243,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "securityDetails",
+      "ranges": [
+        {
+          "startOffset": 2385,
+          "endOffset": 2442,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "arrayBuffer",
+      "ranges": [
+        {
+          "startOffset": 2536,
+          "endOffset": 3036,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "text",
+      "ranges": [
+        {
+          "startOffset": 3135,
+          "endOffset": 3245,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "json",
+      "ranges": [
+        {
+          "startOffset": 3473,
+          "endOffset": 3562,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "request",
+      "ranges": [
+        {
+          "startOffset": 3634,
+          "endOffset": 3675,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "fromCache",
+      "ranges": [
+        {
+          "startOffset": 3801,
+          "endOffset": 3884,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "fromServiceWorker",
+      "ranges": [
+        {
+          "startOffset": 3970,
+          "endOffset": 4031,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "frame",
+      "ranges": [
+        {
+          "startOffset": 4157,
+          "endOffset": 4204,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

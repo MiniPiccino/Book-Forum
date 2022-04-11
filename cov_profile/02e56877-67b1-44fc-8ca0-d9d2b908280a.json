@@ -1,0 +1,88 @@
+{
+  "scriptId": "197",
+  "url": "https://dev.jspm.io/npm:jszip@3.5.0/lib/stream/DataWorker.dew.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 2991,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "dew",
+      "ranges": [
+        {
+          "startOffset": 172,
+          "endOffset": 2991,
+          "count": 2
+        },
+        {
+          "startOffset": 205,
+          "endOffset": 2990,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "DataWorker",
+      "ranges": [
+        {
+          "startOffset": 584,
+          "endOffset": 1115,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "DataWorker.cleanUp",
+      "ranges": [
+        {
+          "startOffset": 1240,
+          "endOffset": 1327,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "DataWorker.resume",
+      "ranges": [
+        {
+          "startOffset": 1406,
+          "endOffset": 1664,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "DataWorker._tickAndRepeat",
+      "ranges": [
+        {
+          "startOffset": 1783,
+          "endOffset": 2036,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "DataWorker._tick",
+      "ranges": [
+        {
+          "startOffset": 2111,
+          "endOffset": 2945,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

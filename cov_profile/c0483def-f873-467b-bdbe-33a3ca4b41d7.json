@@ -1,0 +1,50 @@
+{
+  "scriptId": "110",
+  "url": "https://deno.land/x/puppeteer@9.0.2/vendor/puppeteer-core/puppeteer/common/BrowserConnector.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 3134,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getWebSocketTransportClass",
+      "ranges": [
+        {
+          "startOffset": 991,
+          "endOffset": 1053,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "connectToBrowser",
+      "ranges": [
+        {
+          "startOffset": 1199,
+          "endOffset": 2546,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getWSEndpoint",
+      "ranges": [
+        {
+          "startOffset": 2548,
+          "endOffset": 3088,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

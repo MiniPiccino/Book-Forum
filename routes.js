@@ -136,7 +136,7 @@ router.post('/newForum', async context => {
 router.get('/details/:id', async context => {
     console.log('GET /details')
     const authorised = context.cookies.get('authorised')
-	if(Boolean(authorised == false)) throe new Error('authorised is not found')
+	if(Boolean(authorised == false)) throw new Error('authorised is not found')
     const id = context.params.id
 	if(Boolean(id == false)) throw new Error('id is not found')
 	const infoForum = await detailForum(id)

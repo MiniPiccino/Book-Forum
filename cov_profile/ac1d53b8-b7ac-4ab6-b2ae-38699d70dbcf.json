@@ -1,0 +1,17 @@
+{
+  "scriptId": "85",
+  "url": "https://deno.land/x/crypto_random_string@1.1.0/mod.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 331,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

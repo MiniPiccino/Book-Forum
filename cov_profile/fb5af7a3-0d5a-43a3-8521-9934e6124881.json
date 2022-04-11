@@ -1,0 +1,44 @@
+{
+  "scriptId": "235",
+  "url": "https://dev.jspm.io/npm:pako@1.0.11/lib/zlib/adler32.dew.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1839,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "dew",
+      "ranges": [
+        {
+          "startOffset": 47,
+          "endOffset": 1839,
+          "count": 2
+        },
+        {
+          "startOffset": 80,
+          "endOffset": 1838,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "adler32",
+      "ranges": [
+        {
+          "startOffset": 1278,
+          "endOffset": 1797,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

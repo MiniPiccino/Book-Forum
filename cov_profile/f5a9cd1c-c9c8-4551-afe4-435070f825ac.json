@@ -1,0 +1,83 @@
+{
+  "scriptId": "138",
+  "url": "https://deno.land/x/puppeteer@9.0.2/vendor/puppeteer-core/puppeteer/common/AriaQueryHandler.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 3246,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "queryAXTree",
+      "ranges": [
+        {
+          "startOffset": 667,
+          "endOffset": 987,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "parseAriaSelector",
+      "ranges": [
+        {
+          "startOffset": 988,
+          "endOffset": 1721,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "queryOne",
+      "ranges": [
+        {
+          "startOffset": 1739,
+          "endOffset": 2047,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "waitFor",
+      "ranges": [
+        {
+          "startOffset": 2065,
+          "endOffset": 2488,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "queryAll",
+      "ranges": [
+        {
+          "startOffset": 2507,
+          "endOffset": 2813,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "queryAllArray",
+      "ranges": [
+        {
+          "startOffset": 2837,
+          "endOffset": 3094,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

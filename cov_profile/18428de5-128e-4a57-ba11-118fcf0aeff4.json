@@ -1,0 +1,44 @@
+{
+  "scriptId": "218",
+  "url": "https://dev.jspm.io/npm:@jspm/core@1.1.1/nodelibs/stream.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1868,
+          "count": 1
+        },
+        {
+          "startOffset": 306,
+          "endOffset": 350,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "p",
+      "ranges": [
+        {
+          "startOffset": 384,
+          "endOffset": 421,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "p.pipe",
+      "ranges": [
+        {
+          "startOffset": 583,
+          "endOffset": 1531,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

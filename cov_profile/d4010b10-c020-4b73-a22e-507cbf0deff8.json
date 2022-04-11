@@ -1,0 +1,44 @@
+{
+  "scriptId": "239",
+  "url": "https://dev.jspm.io/npm:pako@1.0.11/lib/zlib/inffast.dew.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 13627,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "dew",
+      "ranges": [
+        {
+          "startOffset": 47,
+          "endOffset": 13627,
+          "count": 1
+        },
+        {
+          "startOffset": 80,
+          "endOffset": 95,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "inflate_fast",
+      "ranges": [
+        {
+          "startOffset": 2816,
+          "endOffset": 13605,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

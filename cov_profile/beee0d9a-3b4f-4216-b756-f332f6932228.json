@@ -1,0 +1,259 @@
+{
+  "scriptId": "117",
+  "url": "https://deno.land/x/puppeteer@9.0.2/vendor/puppeteer-core/puppeteer/common/NetworkManager.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 11412,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "NetworkManager",
+      "ranges": [
+        {
+          "startOffset": 1444,
+          "endOffset": 2873,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "initialize",
+      "ranges": [
+        {
+          "startOffset": 2876,
+          "endOffset": 3091,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "authenticate",
+      "ranges": [
+        {
+          "startOffset": 3094,
+          "endOffset": 3221,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "setExtraHTTPHeaders",
+      "ranges": [
+        {
+          "startOffset": 3224,
+          "endOffset": 3721,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "extraHTTPHeaders",
+      "ranges": [
+        {
+          "startOffset": 3724,
+          "endOffset": 3802,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "setOfflineMode",
+      "ranges": [
+        {
+          "startOffset": 3805,
+          "endOffset": 3934,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "emulateNetworkConditions",
+      "ranges": [
+        {
+          "startOffset": 3937,
+          "endOffset": 4364,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_updateNetworkConditions",
+      "ranges": [
+        {
+          "startOffset": 4367,
+          "endOffset": 4723,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "setUserAgent",
+      "ranges": [
+        {
+          "startOffset": 4726,
+          "endOffset": 4837,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "setCacheEnabled",
+      "ranges": [
+        {
+          "startOffset": 4840,
+          "endOffset": 4963,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "setRequestInterception",
+      "ranges": [
+        {
+          "startOffset": 4966,
+          "endOffset": 5185,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_updateProtocolRequestInterception",
+      "ranges": [
+        {
+          "startOffset": 5188,
+          "endOffset": 5836,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_updateProtocolCacheDisabled",
+      "ranges": [
+        {
+          "startOffset": 5839,
+          "endOffset": 6096,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_onRequestWillBeSent",
+      "ranges": [
+        {
+          "startOffset": 6099,
+          "endOffset": 6726,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_onAuthRequired",
+      "ranges": [
+        {
+          "startOffset": 6729,
+          "endOffset": 7333,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_onRequestPaused",
+      "ranges": [
+        {
+          "startOffset": 7336,
+          "endOffset": 8100,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_onRequest",
+      "ranges": [
+        {
+          "startOffset": 8103,
+          "endOffset": 8920,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_onRequestServedFromCache",
+      "ranges": [
+        {
+          "startOffset": 8923,
+          "endOffset": 9168,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_handleRequestRedirect",
+      "ranges": [
+        {
+          "startOffset": 9171,
+          "endOffset": 9743,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_onResponseReceived",
+      "ranges": [
+        {
+          "startOffset": 9746,
+          "endOffset": 10123,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_onLoadingFinished",
+      "ranges": [
+        {
+          "startOffset": 10126,
+          "endOffset": 10780,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_onLoadingFailed",
+      "ranges": [
+        {
+          "startOffset": 10783,
+          "endOffset": 11366,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

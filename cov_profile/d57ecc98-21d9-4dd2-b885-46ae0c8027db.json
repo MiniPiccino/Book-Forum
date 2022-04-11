@@ -1,0 +1,116 @@
+{
+  "scriptId": "139",
+  "url": "https://deno.land/std@0.99.0/encoding/hex.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 8757,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "errInvalidByte",
+      "ranges": [
+        {
+          "startOffset": 70,
+          "endOffset": 216,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "errLength",
+      "ranges": [
+        {
+          "startOffset": 224,
+          "endOffset": 309,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "fromHexChar",
+      "ranges": [
+        {
+          "startOffset": 310,
+          "endOffset": 563,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "encodedLen",
+      "ranges": [
+        {
+          "startOffset": 571,
+          "endOffset": 615,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "encode",
+      "ranges": [
+        {
+          "startOffset": 623,
+          "endOffset": 878,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "encodeToString",
+      "ranges": [
+        {
+          "startOffset": 886,
+          "endOffset": 968,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "decode",
+      "ranges": [
+        {
+          "startOffset": 976,
+          "endOffset": 1348,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "decodedLen",
+      "ranges": [
+        {
+          "startOffset": 1356,
+          "endOffset": 1402,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "decodeString",
+      "ranges": [
+        {
+          "startOffset": 1410,
+          "endOffset": 1486,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

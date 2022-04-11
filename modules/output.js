@@ -38,6 +38,12 @@ export async function detailForum(id){
     console.log(result)
     return result
 }
+
+/**
+ * returns comment, username and time the comment was added 
+ * @returns {object} comment, username and time the comment was added
+ */
+
 export async function showingComments(id){
     let sql = `SELECT comment, username, added FROM newComment WHERE IDForum = ${id};`
     let result = await db.query(sql)

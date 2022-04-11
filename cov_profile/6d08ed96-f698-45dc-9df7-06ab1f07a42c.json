@@ -1,0 +1,55 @@
+{
+  "scriptId": "193",
+  "url": "https://dev.jspm.io/npm:jszip@3.5.0/lib/nodejs/NodejsStreamOutputAdapter.dew.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1312,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "dew",
+      "ranges": [
+        {
+          "startOffset": 191,
+          "endOffset": 1312,
+          "count": 1
+        },
+        {
+          "startOffset": 224,
+          "endOffset": 239,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "NodejsStreamOutputAdapter",
+      "ranges": [
+        {
+          "startOffset": 716,
+          "endOffset": 1159,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "NodejsStreamOutputAdapter._read",
+      "ranges": [
+        {
+          "startOffset": 1207,
+          "endOffset": 1251,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

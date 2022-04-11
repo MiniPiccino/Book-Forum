@@ -1,0 +1,55 @@
+{
+  "scriptId": "175",
+  "url": "https://dev.jspm.io/npm:jszip@3.5.0/lib/index.dew.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1727,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "dew",
+      "ranges": [
+        {
+          "startOffset": 333,
+          "endOffset": 1727,
+          "count": 1
+        },
+        {
+          "startOffset": 366,
+          "endOffset": 381,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "JSZip",
+      "ranges": [
+        {
+          "startOffset": 474,
+          "endOffset": 1231,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "JSZip.loadAsync",
+      "ranges": [
+        {
+          "startOffset": 1563,
+          "endOffset": 1648,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

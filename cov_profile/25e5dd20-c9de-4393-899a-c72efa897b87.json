@@ -1,0 +1,44 @@
+{
+  "scriptId": "233",
+  "url": "https://dev.jspm.io/npm:pako@1.0.11/lib/zlib/zstream.dew.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 2040,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "dew",
+      "ranges": [
+        {
+          "startOffset": 47,
+          "endOffset": 2040,
+          "count": 2
+        },
+        {
+          "startOffset": 80,
+          "endOffset": 2039,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "ZStream",
+      "ranges": [
+        {
+          "startOffset": 1114,
+          "endOffset": 1998,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "scriptId": "206",
+  "url": "https://dev.jspm.io/npm:jszip@3.5.0/lib/zipEntries.dew.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 11784,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "dew",
+      "ranges": [
+        {
+          "startOffset": 402,
+          "endOffset": 11784,
+          "count": 1
+        },
+        {
+          "startOffset": 435,
+          "endOffset": 450,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "ZipEntries",
+      "ranges": [
+        {
+          "startOffset": 837,
+          "endOffset": 932,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "checkSignature",
+      "ranges": [
+        {
+          "startOffset": 1174,
+          "endOffset": 1528,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isSignature",
+      "ranges": [
+        {
+          "startOffset": 1816,
+          "endOffset": 2112,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "readBlockEndOfCentral",
+      "ranges": [
+        {
+          "startOffset": 2204,
+          "endOffset": 3259,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "readBlockZip64EndOfCentral",
+      "ranges": [
+        {
+          "startOffset": 3534,
+          "endOffset": 4646,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "readBlockZip64EndOfCentralLocator",
+      "ranges": [
+        {
+          "startOffset": 4765,
+          "endOffset": 5076,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "readLocalFiles",
+      "ranges": [
+        {
+          "startOffset": 5190,
+          "endOffset": 5523,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "readCentralDir",
+      "ranges": [
+        {
+          "startOffset": 5597,
+          "endOffset": 6596,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "readEndOfCentral",
+      "ranges": [
+        {
+          "startOffset": 6679,
+          "endOffset": 11308,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "prepareReader",
+      "ranges": [
+        {
+          "startOffset": 11329,
+          "endOffset": 11389,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "load",
+      "ranges": [
+        {
+          "startOffset": 11565,
+          "endOffset": 11709,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

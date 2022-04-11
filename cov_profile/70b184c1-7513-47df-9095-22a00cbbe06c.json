@@ -1,0 +1,295 @@
+{
+  "scriptId": "260",
+  "url": "https://deno.land/std@0.91.0/hash/_wasm/wasm.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 152831,
+          "count": 1
+        },
+        {
+          "startOffset": 147834,
+          "endOffset": 148013,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getUint8Memory0",
+      "ranges": [
+        {
+          "startOffset": 146697,
+          "endOffset": 146930,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getStringFromWasm0",
+      "ranges": [
+        {
+          "startOffset": 146932,
+          "endOffset": 147052,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "addHeapObject",
+      "ranges": [
+        {
+          "startOffset": 147171,
+          "endOffset": 147347,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getObject",
+      "ranges": [
+        {
+          "startOffset": 147349,
+          "endOffset": 147396,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "dropObject",
+      "ranges": [
+        {
+          "startOffset": 147398,
+          "endOffset": 147494,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "takeObject",
+      "ranges": [
+        {
+          "startOffset": 147496,
+          "endOffset": 147587,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "encodeString",
+      "ranges": [
+        {
+          "startOffset": 147747,
+          "endOffset": 147829,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "encodeString",
+      "ranges": [
+        {
+          "startOffset": 147836,
+          "endOffset": 148013,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "passStringToWasm0",
+      "ranges": [
+        {
+          "startOffset": 148017,
+          "endOffset": 148875,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "create_hash",
+      "ranges": [
+        {
+          "startOffset": 148940,
+          "endOffset": 149187,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_assertClass",
+      "ranges": [
+        {
+          "startOffset": 149189,
+          "endOffset": 149355,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "passArray8ToWasm0",
+      "ranges": [
+        {
+          "startOffset": 149357,
+          "endOffset": 149523,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "update_hash",
+      "ranges": [
+        {
+          "startOffset": 149590,
+          "endOffset": 149792,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getInt32Memory0",
+      "ranges": [
+        {
+          "startOffset": 149827,
+          "endOffset": 150060,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getArrayU8FromWasm0",
+      "ranges": [
+        {
+          "startOffset": 150062,
+          "endOffset": 150165,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "digest_hash",
+      "ranges": [
+        {
+          "startOffset": 150229,
+          "endOffset": 150701,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "__wrap",
+      "ranges": [
+        {
+          "startOffset": 150743,
+          "endOffset": 150847,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "free",
+      "ranges": [
+        {
+          "startOffset": 150851,
+          "endOffset": 150943,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "load",
+      "ranges": [
+        {
+          "startOffset": 150947,
+          "endOffset": 151939,
+          "count": 1
+        },
+        {
+          "startOffset": 151054,
+          "endOffset": 151727,
+          "count": 0
+        },
+        {
+          "startOffset": 151855,
+          "endOffset": 151897,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "init",
+      "ranges": [
+        {
+          "startOffset": 151941,
+          "endOffset": 152808,
+          "count": 1
+        },
+        {
+          "startOffset": 152006,
+          "endOffset": 152069,
+          "count": 0
+        },
+        {
+          "startOffset": 152625,
+          "endOffset": 152656,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "imports.wbg.__wbindgen_string_new",
+      "ranges": [
+        {
+          "startOffset": 152150,
+          "endOffset": 152254,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "imports.wbg.__wbindgen_throw",
+      "ranges": [
+        {
+          "startOffset": 152289,
+          "endOffset": 152369,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "imports.wbg.__wbindgen_rethrow",
+      "ranges": [
+        {
+          "startOffset": 152406,
+          "endOffset": 152455,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

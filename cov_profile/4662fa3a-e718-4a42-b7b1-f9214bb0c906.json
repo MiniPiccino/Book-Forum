@@ -1,0 +1,115 @@
+{
+  "scriptId": "203",
+  "url": "https://dev.jspm.io/npm:jszip@3.5.0/lib/flate.dew.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 2721,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "dew",
+      "ranges": [
+        {
+          "startOffset": 234,
+          "endOffset": 2721,
+          "count": 1
+        },
+        {
+          "startOffset": 267,
+          "endOffset": 282,
+          "count": 0
+        },
+        {
+          "startOffset": 593,
+          "endOffset": 602,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "FlateWorker",
+      "ranges": [
+        {
+          "startOffset": 892,
+          "endOffset": 1202,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "FlateWorker.processChunk",
+      "ranges": [
+        {
+          "startOffset": 1339,
+          "endOffset": 1525,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "FlateWorker.flush",
+      "ranges": [
+        {
+          "startOffset": 1603,
+          "endOffset": 1762,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "FlateWorker.cleanUp",
+      "ranges": [
+        {
+          "startOffset": 1844,
+          "endOffset": 1932,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "FlateWorker._createPako",
+      "ranges": [
+        {
+          "startOffset": 2185,
+          "endOffset": 2483,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exports.compressWorker",
+      "ranges": [
+        {
+          "startOffset": 2513,
+          "endOffset": 2607,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exports.uncompressWorker",
+      "ranges": [
+        {
+          "startOffset": 2639,
+          "endOffset": 2699,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

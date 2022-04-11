@@ -1,0 +1,50 @@
+{
+  "scriptId": "100",
+  "url": "https://deno.land/x/mysql@v2.10.2/src/packets/parsers/result.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 10568,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "parseField",
+      "ranges": [
+        {
+          "startOffset": 449,
+          "endOffset": 1305,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "parseRow",
+      "ranges": [
+        {
+          "startOffset": 1313,
+          "endOffset": 1574,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "convertType",
+      "ranges": [
+        {
+          "startOffset": 1575,
+          "endOffset": 2801,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

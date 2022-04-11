@@ -1,0 +1,68 @@
+{
+  "scriptId": "178",
+  "url": "https://dev.jspm.io/npm:jszip@3.5.0/lib/support.dew.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1373,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "dew",
+      "ranges": [
+        {
+          "startOffset": 195,
+          "endOffset": 1373,
+          "count": 8
+        },
+        {
+          "startOffset": 228,
+          "endOffset": 243,
+          "count": 7
+        },
+        {
+          "startOffset": 243,
+          "endOffset": 463,
+          "count": 1
+        },
+        {
+          "startOffset": 694,
+          "endOffset": 725,
+          "count": 0
+        },
+        {
+          "startOffset": 725,
+          "endOffset": 1223,
+          "count": 1
+        },
+        {
+          "startOffset": 882,
+          "endOffset": 1219,
+          "count": 0
+        },
+        {
+          "startOffset": 1223,
+          "endOffset": 1305,
+          "count": 1
+        },
+        {
+          "startOffset": 1305,
+          "endOffset": 1352,
+          "count": 0
+        },
+        {
+          "startOffset": 1352,
+          "endOffset": 1372,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}
