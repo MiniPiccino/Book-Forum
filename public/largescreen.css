@@ -52,7 +52,6 @@ li a {
 li a:hover {
     color: var(--hover-color);
 }
-
 main {
     margin-top: 15em;
     text-align: center;
