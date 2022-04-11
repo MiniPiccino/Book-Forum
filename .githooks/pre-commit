@@ -5,3 +5,5 @@ deno lint --unstable
 git add --all
 
 deno test -A --unstable Tests/output.test.js
+
+deno test -A --unstable Tests/comments.test.js
